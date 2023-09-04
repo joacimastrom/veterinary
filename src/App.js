@@ -66,7 +66,7 @@ function App() {
               value={textValue}
               onChange={(e) => setTextValue(e.target.value)}
               id="standard-basic"
-              label="Standard"
+              label="Svar"
               variant="standard"
             />
 
