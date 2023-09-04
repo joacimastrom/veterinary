@@ -15,8 +15,8 @@ import "./App.css";
 import { checkEqual, getHints, shuffleArray, testWords } from "./words";
 
 function App() {
-  const [currentDomain, setCurrentDomain] = useState(0);
-  const [wordSet, setWordSet] = useState(
+  const [currentDomain /* , setCurrentDomain */] = useState(0);
+  const [wordSet /* , setWordSet */] = useState(
     shuffleArray(testWords[currentDomain].words)
   );
   const [currentIndex, setCurrentIndex] = useState(0);
