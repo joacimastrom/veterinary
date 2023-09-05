@@ -14,7 +14,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   checkEqual,
   getHints,
@@ -46,24 +46,23 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
   );
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHints, setShowHints] = useState(false);
-  const [hints, setHints] = useState([]);
+  const [hints, setHints] = useState(getHints(0, wordSet));
   const [textValue, setTextValue] = useState("");
   const [modeSlider, setModeSlider] = useState(0);
   const [mode, setMode] = useState({ from: "la", to: "se" });
   const [showSettings, setShowSettings] = useState(false);
 
-  useEffect(() => {
-    setHints(getHints(currentIndex, wordSet));
-    setMode(getMode(modeSlider));
-    setTextValue("");
-    setShowHints(false);
-  }, [currentIndex, wordSet, modeSlider]);
-
   const currentWord = wordSet[currentIndex];
 
   const correctAnswer = checkEqual(textValue, currentWord[mode.to]);
 
-  const onNext = () => setCurrentIndex((current) => current + 1);
+  const onNext = () => {
+    setShowHints(false);
+    setMode(getMode(modeSlider));
+    setTextValue("");
+    setHints(getHints(currentIndex + 1, wordSet));
+    setCurrentIndex((current) => current + 1);
+  };
   const onLastQuestion = currentIndex === wordSet.length - 1;
 
   return (
