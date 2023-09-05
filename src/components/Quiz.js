@@ -70,9 +70,10 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
       <Button
         sx={{
           position: "absolute",
-          color: "white",
           top: "1rem",
           left: "1rem",
+          color: "white",
+          alignSelf: "flex-start",
         }}
         onClick={onBack}
       >
