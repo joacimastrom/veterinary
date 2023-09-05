@@ -46,7 +46,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
   const [mode, setMode] = useState({ from: "la", to: "se" });
   const [showSettings, setShowSettings] = useState(false);
 
-  const currentWord = wordSet[currentIndex];
+  const { group, subGroup, ...currentWord } = wordSet[currentIndex];
 
   const correctAnswer = checkEqual(textValue, currentWord[mode.to]);
 
@@ -87,21 +87,23 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
             }}
             color="text.secondary"
           >{`${currentIndex + 1}/${wordSet.length}`}</Typography>
-          <Grow in={showGroup}>
-            <Typography sx={{ fontSize: 14 }} color="text.secondary">
-              {currentWord.group}
-            </Typography>
-          </Grow>
+          {group && (
+            <Grow in={showGroup}>
+              <Typography sx={{ fontSize: 14 }} color="text.secondary">
+                {group}
+              </Typography>
+            </Grow>
+          )}
           <Typography variant="h5" component="div">
             {currentWord[mode.from]}
           </Typography>
-          <Grow in={showSubGroup}>
-            {currentWord.subGroup && (
+          {subGroup && (
+            <Grow in={showSubGroup}>
               <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                {currentWord.subGroup}
+                {subGroup}
               </Typography>
-            )}
-          </Grow>
+            </Grow>
+          )}
           <TextField
             onKeyDown={(e) => e.key === "Enter" && correctAnswer && onNext()}
             value={textValue}
