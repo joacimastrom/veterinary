@@ -10,7 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useState } from "react";
-import { domains } from "../words";
+import { domains } from "../words/words";
 
 export const StartMenu = ({ shuffle, setShuffle, setCurrentDomain }) => {
   const [expanded, setExpanded] = useState(null);
@@ -20,7 +20,7 @@ export const StartMenu = ({ shuffle, setShuffle, setCurrentDomain }) => {
       <Typography variant="h4" marginBottom={2} component="div">
         Välj delmoment
       </Typography>
-      {domains.map((domain, index) => (
+      {domains.map(({ domain }, index) => (
         <Card
           key={domain}
           sx={{ minWidth: 275 }}

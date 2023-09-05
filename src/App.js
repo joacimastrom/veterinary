@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { Quiz } from "./components/Quiz";
 import { StartMenu } from "./components/StartMenu";
+import { domains } from "./words/words";
 
 function App() {
   const [currentDomain, setCurrentDomain] = useState(null);
@@ -19,7 +20,7 @@ function App() {
         <Quiz
           shuffle={shuffle}
           onBack={() => setCurrentDomain(null)}
-          domain={currentDomain}
+          domain={domains[currentDomain]}
         />
       )}
     </div>

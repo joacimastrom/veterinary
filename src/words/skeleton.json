@@ -1,0 +1,323 @@
+{
+  "domain": "Apparatus skeleton",
+  "words": [
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa cranii",
+      "la": "Os occipitale",
+      "se": "Nackben"
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa cranii",
+      "la": "Os parietale",
+      "se": "Hjässben"
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa cranii",
+      "la": "Os frontale",
+      "se": "Pannben"
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa cranii",
+      "la": "Orbita",
+      "se": "Ögonhåla"
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa cranii",
+      "la": "Os temporale",
+      "se": "Tinningben"
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa faciei",
+      "la": "Os nasale",
+      "se": "Näsben"
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa faciei",
+      "la": "Os zygomaticum",
+      "se": "Okben"
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa faciei",
+      "la": "Maxilla",
+      "se": "Överkäke"
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa faciei",
+      "la": "Os incisivum",
+      "se": "Mellankäksben "
+    },
+    {
+      "group": "Cranium",
+      "subGroup": "Ossa faciei",
+      "la": "Mandibula",
+      "se": "Underkäke"
+    },
+    {
+      "group": "Truncus",
+      "subGroup": "Columna vertebralis",
+      "la": "Vertebrae cervicales",
+      "se": "Halskotor"
+    },
+    {
+      "group": "Truncus",
+      "subGroup": "Columna vertebralis",
+      "la": "Atlas",
+      "se": "1:a halskotan"
+    },
+    {
+      "group": "Truncus",
+      "subGroup": "Columna vertebralis",
+      "la": "Axis",
+      "se": "2:a halskotan"
+    },
+    {
+      "group": "Truncus",
+      "subGroup": "Columna vertebralis",
+      "la": "Vertebrae thoracicae",
+      "se": "Bröstkotor"
+    },
+    {
+      "group": "Truncus",
+      "subGroup": "Columna vertebralis",
+      "la": "Vertebrae lumbales",
+      "se": "Ländkotor"
+    },
+    {
+      "group": "Truncus",
+      "subGroup": "Columna vertebralis",
+      "la": "Os sacrum",
+      "se": "Korsben"
+    },
+    {
+      "group": "Truncus",
+      "subGroup": "Columna vertebralis",
+      "la": "Vertebrae caudales",
+      "se": "Svanskotor"
+    },
+    {
+      "group": "Thorax",
+      "subGroup": "Costae",
+      "la": "Cartilago costalis",
+      "se": "Revbensbrosk"
+    },
+    {
+      "group": "Thorax",
+      "subGroup": "Costae",
+      "la": "Arcus costalis",
+      "se": "Revbensbåge"
+    },
+    {
+      "group": "Thorax",
+      "subGroup": "Sternum",
+      "la": "Apertura thoracis cranialis",
+      "se": "Främre bröstaperturen"
+    },
+    {
+      "group": "Thorax",
+      "subGroup": "Sternum",
+      "la": "Apertura thoracis caudalis",
+      "se": "Bakre bröstaperturen"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Scapula",
+      "se": "Bogblad"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Humerus",
+      "se": "Överarmsben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Radius",
+      "se": "Underarmsben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Ulna",
+      "se": "Armbågsben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Ossa carpi",
+      "se": "Karpalben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Ossa carpi",
+      "la": "Os carpi intermedioradiale",
+      "se": "Tillhör proximala raden ben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Ossa carpi",
+      "la": "Os carpi ulnare",
+      "se": "Tillhör proximala raden ben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Ossa carpi",
+      "la": "Os carpi accessorium",
+      "se": "Tillhör proximala raden ben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Ossa carpi",
+      "la": "Os carpale I-IV",
+      "se": "Tillhör distala raden ben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Ossa metacarpalia",
+      "se": "Metakarpalben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Ossa digitorum manus",
+      "se": "Falangben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Phalanx proximalis",
+      "se": "Proximala falangbenet"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Phalanx media",
+      "se": "Mellersta falangbenet"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Phalanx distalis",
+      "se": "Kloben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Pelvin",
+      "se": "Bäcken"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Apertura pelvis cranialis",
+      "se": "Främre bäckenaperturen"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Apertura pelvis caudalis",
+      "se": "Bakre bäckenaperturen"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Pelvis",
+      "la": "Os coxae",
+      "se": "Bäckenhalva"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Pelvis",
+      "la": "Os ilium",
+      "se": "Höftben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Pelvis",
+      "la": "Os ischii",
+      "se": "Sittben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Pelvis",
+      "la": "Os pubis",
+      "se": "Blygdben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Femur",
+      "se": "Lårben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Patella",
+      "se": "Knäskål"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Skeleton cruris",
+      "la": "Tibia",
+      "se": "Skankben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Skeleton cruris",
+      "la": "Fibula",
+      "se": "Vadben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Ossa tarsi",
+      "se": "Hasben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Ossa tarsi",
+      "la": "Talus",
+      "se": "Rullben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Ossa tarsi",
+      "la": "Calcaneus",
+      "se": "Hälben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Ossa tarsi",
+      "la": "Os tarsi centrale",
+      "se": "Centrala tarsalbenet"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "Ossa tarsi",
+      "la": "Os tarsale I-IV",
+      "se": "Tillhör distala raden ben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Ossa metatarsalia",
+      "se": "Metatarsalben"
+    },
+    {
+      "group": "Skeleton appendiculare",
+      "subGroup": "",
+      "la": "Ossa digitorum pedis",
+      "se": "Falangben"
+    }
+  ]
+}

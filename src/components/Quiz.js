@@ -15,13 +15,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useState } from "react";
-import {
-  checkEqual,
-  getHints,
-  getMode,
-  shuffleArray,
-  testWords,
-} from "./../words";
+import { checkEqual, getHints, getMode, shuffleArray } from "./../utils";
 
 export const translationOptions = [
   {
@@ -42,7 +36,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
   const [showGroup, setShowGroup] = useState(true);
   const [showSubGroup, setShowSubGrup] = useState(true);
   const [wordSet /* , setWordSet */] = useState(
-    shuffle ? shuffleArray(testWords[domain].words) : testWords[domain].words
+    shuffle ? shuffleArray(domain.words) : domain.words
   );
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showHints, setShowHints] = useState(false);
@@ -80,7 +74,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
         Tillbaka
       </Button>
       <Typography variant="h4" marginBottom={2} component="div">
-        {testWords[domain].domain}
+        {domain.domain}
       </Typography>
       <Card sx={{ minWidth: 275, position: "relative" }}>
         <CardContent>
