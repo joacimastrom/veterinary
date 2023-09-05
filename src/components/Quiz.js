@@ -50,12 +50,12 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
 
   const correctAnswer = checkEqual(textValue, currentWord[mode.to]);
 
-  const onNext = () => {
+  const changeQuestion = (direction) => {
     setShowHints(false);
     setMode(getMode(modeSlider));
     setTextValue("");
-    setHints(getHints(currentIndex + 1, wordSet));
-    setCurrentIndex((current) => current + 1);
+    setHints(getHints(currentIndex + direction, wordSet));
+    setCurrentIndex((current) => current + direction);
   };
   const onLastQuestion = currentIndex === wordSet.length - 1;
 
@@ -105,7 +105,9 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
             </Grow>
           )}
           <TextField
-            onKeyDown={(e) => e.key === "Enter" && correctAnswer && onNext()}
+            onKeyDown={(e) =>
+              e.key === "Enter" && correctAnswer && changeQuestion(1)
+            }
             value={textValue}
             onChange={(e) => setTextValue(e.target.value)}
             id="standard-basic"
@@ -159,7 +161,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
           <Button
             size="small"
             disabled={!currentIndex}
-            onClick={() => setCurrentIndex((current) => current - 1)}
+            onClick={() => changeQuestion(-1)}
           >
             Förgående
           </Button>
@@ -167,7 +169,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
             size="small"
             variant="contained"
             disabled={!correctAnswer}
-            onClick={onLastQuestion ? onBack : onNext}
+            onClick={onLastQuestion ? onBack : () => changeQuestion(1)}
             color="success"
           >
             {onLastQuestion ? "Klar" : "Nästa"}
