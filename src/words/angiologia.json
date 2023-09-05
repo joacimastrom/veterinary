@@ -1,0 +1,449 @@
+{
+  "domain": "Angiologia",
+  "words": [
+    { "group": "", "subgroup": "", "sv": "Hjärtat", "la": "Cor" },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Hjärtbasen",
+      "la": "Basis cordis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Hjärtspetsen",
+      "la": "Apex cordis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Dubbelbladig hjärtsäck",
+      "la": "Pericardium"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Hjärtsäckens bindvävsdel",
+      "la": "Pericardium fibrosum"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Hjärtsäckens serösa hinna som bildar två blad",
+      "la": "Pericardium serosum"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Parietalt blad av den serösa hinnan. Fäster på insidan av pericardium fibrosum",
+      "la": "Lamina parietalis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Visceralt blad av den serösa hinnan. Fäster myocardiet och utgör hjärtats ytskikt (det som kallas epicardium)",
+      "la": "Lamina visceralis (epicardium)"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Hjärtsäckens hålrum, mellan hjärtsäckens serösa blad (parietalt och visceralt)",
+      "la": "Cavum pericardii"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Hjärtmuskeln",
+      "la": "Myocardium"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Sentrådar som fäster segelklaffarna mot kammarväggen via musculus papillaris",
+      "la": "Chordae tendineae"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Koniskt formade muskelpapiller i kammarväggen",
+      "la": "Musculus papillaris"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Sträng mellan septum interventriculare kammarväggen, ofta kraftig på höger sida. Del av retledningssystemet.",
+      "la": "Trabecula septomarginalis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Sinusknutan, specialiserade hjärtmuskelceller, del av retledningssytemet",
+      "la": "Nodus sinuatrialis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "AV-knutan, specialiserade hjärtmuskelceller, del av retledningssytemet",
+      "la": "Nodus atrioventricularis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Tunt, glatt vävnadskikt som linjerar hjärtats hålrum. Kontinuerligt med kärlens endotel.",
+      "la": "Endocardium"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "",
+      "sv": "Hjärtats förmak",
+      "la": "Atrium cordis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Atrium cordis",
+      "sv": "Höger förmak",
+      "la": "Atrium dextrum"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Atrium cordis",
+      "sv": "Höger hjärtöra",
+      "la": "Auricula dextra"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Atrium cordis",
+      "sv": "Vänster förmak",
+      "la": "Atrium sinistrum"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Atrium cordis",
+      "sv": "Vänster hjärtöra",
+      "la": "Auricula sinistra"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Atrium cordis",
+      "sv": "Vägg mellan förmaken",
+      "la": "Septum interatriale"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Atrium cordis",
+      "sv": "Hjärtats kammare",
+      "la": "Ventriculus cordis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Höger kammare",
+      "la": "Ventriculus dexter"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Vänster kammare",
+      "la": "Ventriculus sinister"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Vägg mellan kamrarna",
+      "la": "Septum interventriculare"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Segelklaffar mellan höger förmak och kammare = Trikuspidalisklaffar",
+      "la": "Valva atrioventricularis dextra"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Trikuspidalisklaffar",
+      "la": "Valva tricuspidalis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Lungartärens fickklaffar (semilunarklaffar)",
+      "la": "Valva trunci pulmonalis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Segelklaffar mellan vänster förmak och kammare",
+      "la": "Valva atrioventricularis sinistra"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Mitralisklaffar",
+      "la": "Valva bicuspidalis/Valva mitralis"
+    },
+    {
+      "group": "Cor",
+      "subgroup": "Ventriculus cordis",
+      "sv": "Stora kroppspulsåderns fickklaffar (semilunarklaffar)",
+      "la": "Valva aortae"
+    },
+    { "group": "", "subgroup": "", "sv": "Kärl", "la": "Vas" },
+    { "group": "Vas", "subgroup": "", "sv": "Artär/Artärer", "la": "Arteria" },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Arteriol = Liten artär/plural",
+      "la": "Arteriola/Arteriolae"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Lungpulsådern",
+      "la": "Truncus pulmonalis"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Vänster och höger lungartär",
+      "la": "A. pulmonalis sinistra et dextra"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Stora kroppspulsådern",
+      "la": "Aorta"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Kransartärer",
+      "la": "Aa. coronaria sinistra et dextra"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Aortabågen",
+      "la": "Arcus aortae"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Framben- o huvudpulsåder",
+      "la": "Truncus brachiocephalicus"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Höger och vänster sidas halspulsåder",
+      "la": "Aa. carotis communis dx et sin"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "”Nyckelbensartär” (vä och hö)",
+      "la": "Aa. subclavia sin et dx"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Stora kroppspulsåderns bröstdel",
+      "la": "Aorta thoracica"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Stora kroppspulsåderns bukdel",
+      "la": "Aorta abdominalis"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Artär i främre delen av buken",
+      "la": "A. celiaca"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Leverartär",
+      "la": "A. hepatica"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Främre och bakre krösartären",
+      "la": "Aa. mesenterica cranialis et caudalis"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Njurartären",
+      "la": "Aa. renalis sin et dx"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Könskörtelartärer (hanlig/honlig, vä/hö)",
+      "la": "Aa. testicularis/ovarica sin et dx"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "Kapillärer",
+      "la": "Vas capillares"
+    },
+    { "group": "Vas", "subgroup": "Vena", "sv": "Ven", "la": "Vena" },
+    { "group": "Vas", "subgroup": "Vena", "sv": "Vener", "la": "Venae" },
+    { "group": "Vas", "subgroup": "Vena", "sv": "Små vener", "la": "Venulae" },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "Kransvener",
+      "la": "Vv. cordis"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "Främre och bakre hålvenen",
+      "la": "Vv. cava cranialis et caudalis"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "“Den opariga venen” (höger hos hund)",
+      "la": "V. azygos dextra"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "Lungvener",
+      "la": "Vv. pulmonales"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "Halsvenerna/jugularvenerna (vä/hö)",
+      "la": "Vv. jugularis externa sin et dx"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "Främre och bakre krösvenen",
+      "la": "Vv. mesenterica cranialis et caudalis"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "Njurven (vä och hö)",
+      "la": "Vv. renalis sin et dx"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Vena",
+      "sv": "Könskörtelven (hanlig/honlig, vä/hö)",
+      "la": "Vv. testicularis/ovarica sin et dx"
+    },
+    {
+      "group": "Leverkärl",
+      "subgroup": "",
+      "sv": "Leverartär",
+      "la": "A. hepatica"
+    },
+    {
+      "group": "Leverkärl",
+      "subgroup": "",
+      "sv": "Levervener",
+      "la": "Vv. hepaticae"
+    },
+    {
+      "group": "Leverkärl",
+      "subgroup": "",
+      "sv": "Portaven",
+      "la": "V. portae"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "",
+      "sv": "Lymfkärl",
+      "la": "Vas lymphaticum"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "Lymfknuta/Lymfknutor",
+      "la": "Lymphonodus"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "Käklymfknutor",
+      "la": "Lnn. mandibulares"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "Boglymfknutor",
+      "la": "Lnn. cervicales superficiales"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "“Knälymfknutor”",
+      "la": "Lnn. poplitei"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "Mediastinallymfknutor",
+      "la": "Lnn. mediastinales"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "Lymfknutor vid luftstrupens förgrening",
+      "la": "Lnn. tracheobronchales"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "Lymfknutor i jejunums krös",
+      "la": "Lnn. jejunales"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "S.k. peyerska plaque i tarmväggen",
+      "la": "Lymphonoduli aggregati"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lymphonodus",
+      "sv": "Halsmandlar/tonsill",
+      "la": "Tonsilla palatina"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "",
+      "sv": "Mjälte",
+      "la": "Lien"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lien",
+      "sv": "Mjältkärlrot",
+      "la": "Hilus lienis"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "Lien",
+      "sv": "Ligament mellan magsäcken och mjälten (del av stora nätet)",
+      "la": "Lig. gastrolienale"
+    },
+    {
+      "group": "Systema lymphaticum",
+      "subgroup": "",
+      "sv": "Brässen",
+      "la": "Thymus"
+    }
+  ]
+}

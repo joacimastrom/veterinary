@@ -43,7 +43,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
   const [hints, setHints] = useState(getHints(0, wordSet));
   const [textValue, setTextValue] = useState("");
   const [modeSlider, setModeSlider] = useState(0);
-  const [mode, setMode] = useState({ from: "la", to: "sv" });
+  const [mode, setMode] = useState({ from: "sv", to: "la" });
   const [showSettings, setShowSettings] = useState(false);
 
   const { group, subGroup, ...currentWord } = wordSet[currentIndex];
@@ -126,6 +126,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
                   display: "flex",
                   flexDirection: "column",
                   rowGap: "0.5rem",
+                  alignItems: "center",
                 }}
               >
                 {hints.map((hintIndex) => {
@@ -137,6 +138,12 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
                       {...(showHints ? { timeout: 500 } : {})}
                     >
                       <Chip
+                        sx={{
+                          height: "unset",
+                          width: "225px",
+                          minHeight: "2rem",
+                          "> span": { whiteSpace: "normal " },
+                        }}
                         label={hint}
                         variant="outlined"
                         onClick={() => setTextValue(hint)}

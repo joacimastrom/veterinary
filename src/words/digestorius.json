@@ -1,0 +1,620 @@
+{
+  "domain": "Digestorius",
+  "words": [
+    { "group": "", "subGroup": "", "sv": "Munhåla", "la": "Cavum oris" },
+    { "group": "Cavum oris", "subGroup": "", "sv": "Läpp", "la": "Labia oris" },
+    { "group": "Cavum oris", "subGroup": "", "sv": "Kinder", "la": "Buccae" },
+    {
+      "group": "Cavum oris",
+      "subGroup": "",
+      "sv": "Tandkött (munhålans slemhinna)",
+      "la": "Gingiva"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "",
+      "sv": "Hårda gommen",
+      "la": "Palatum durum"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "",
+      "sv": "Slemhinneåsar på hårda gommen",
+      "la": "Rugae palatinae"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "",
+      "sv": "Mjuka gommen/Gomsegel",
+      "la": "Palatum molle"
+    },
+    { "group": "", "subGroup": "", "sv": "Tänder", "la": "Dentes" },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Mjölktänder",
+      "la": "Dentes decidui (= Dd)"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Permanenta tänder",
+      "la": "Dentes permanentes (= Dp)"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Framtänder",
+      "la": "Dentes incisivi (= I)"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Hörntänder",
+      "la": "Dentes canini (= C)"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Främre kindtänder",
+      "la": "Dentes premolares (= P)"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Bakre kindtänder",
+      "la": "Dentes molares (= M)"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Rovtand (största kindtanden)",
+      "la": "Dens sectorius (P4 och M1)"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Tandkrona (synliga delen)",
+      "la": "Corona dentis"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Tandrot",
+      "la": "Radix dentis"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Tandhals (mellan krona och rot)",
+      "la": "Cervix dentis"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Tandpulpa (kärl och nerver)",
+      "la": "Pulpa dentis"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Rotkanal (där pulpan smalnar)",
+      "la": "Canalis radicis dentis"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Dentes",
+      "sv": "Tandfack i käkbenet",
+      "la": "Alveoli dentales"
+    },
+    { "group": "Cavum oris", "subGroup": "", "sv": "Tunga", "la": "Lingua" },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Lingua",
+      "sv": "Tungans huvuddel",
+      "la": "Corpus linguae"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Lingua",
+      "sv": "Tungrot",
+      "la": "Radix linguae"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Lingua",
+      "sv": "Tungspets",
+      "la": "Apex linguae"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Lingua",
+      "sv": "Tungrygg",
+      "la": "Dorsum linguae"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Lingua",
+      "sv": "Tungpapiller, bär smaklökar eller har mekanisk funktion",
+      "la": "Papillae linguales"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Lingua",
+      "sv": "Tungband (under tungan)",
+      "la": "Frenulum linguae"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Lingua",
+      "sv": "Bindvävsstråk i tungspetsens ventrala mittlinje",
+      "la": "Lyssa"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "",
+      "sv": "Körtlar",
+      "la": "Glandulae"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Glandula",
+      "sv": "Munspottkörtlar (samlingsnamn)",
+      "la": "Glandulae oris"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Glandula",
+      "sv": "Öronspottkörtel",
+      "la": "Gl. parotis"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Glandula",
+      "sv": "Käkspottkörtel",
+      "la": "Gl. mandibularis"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Glandula",
+      "sv": "Undertungspottkörtlar",
+      "la": "Gll. sublinguales"
+    },
+    { "group": "Cavum oris", "subGroup": "", "sv": "Svalg", "la": "Pharynx" },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Pharynx",
+      "sv": "Nässvalg",
+      "la": "Nasopharynx"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Pharynx",
+      "sv": "Munsvalg",
+      "la": "Oropharynx"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "Pharynx",
+      "sv": "Nedre svalgrummet",
+      "la": "Laryngopharynx"
+    },
+    {
+      "group": "Cavum oris",
+      "subGroup": "",
+      "sv": "Foderstrupe",
+      "la": "Esophagus"
+    },
+    { "group": "", "subGroup": "", "sv": "Bukhåla", "la": "Cavum abdominis" },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "",
+      "sv": "Bukhinna",
+      "la": "Peritoneum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "",
+      "sv": "Bukhinnans yttre blad mot bukväggen",
+      "la": "Peritoneum parietale"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "",
+      "sv": "Bukhinnans inre blad mot organen",
+      "la": "Peritoneum viscerale"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "",
+      "sv": "Bukväggens mittlinje “Vita linjen”",
+      "la": "Linea alba"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "",
+      "sv": "Magsäck",
+      "la": "Ventriculus"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Magsäckens stora kurvatur",
+      "la": "Curvatura ventriculi "
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Magsäckens lilla kurvatur",
+      "la": "Curvatura ventriculi "
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Övre magmun",
+      "la": "Ostium cardiacum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Del av magsäcken mot övre magmunnen",
+      "la": "Pars cardiaca"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Magsäckens övre säckiga del",
+      "la": "Fundus ventriculi"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Magsäckskropp",
+      "la": "Corpus ventriculi"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Del av magsäcken mot nedre magmunnen",
+      "la": "Pars pylorica"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Nedre magmun",
+      "la": "Ostium pyloricum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Stora nätet",
+      "la": "Omentum majus"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "”Ficka” mellan stora nätets två skikt",
+      "la": "Bursa omentalis"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Ventriculus",
+      "sv": "Lilla nätet",
+      "la": "Omentum minus"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "",
+      "sv": "Tarm",
+      "la": "Intestinum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum",
+      "sv": "Tunntarm",
+      "la": "Intestinum tenue"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Tolvfingertarm, första delen av tunntarmen",
+      "la": "Duodenum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Främre del av duodenum",
+      "la": "Pars cranialis"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Upphöjning i duodenums inre vägg med mynning för bukspott (d. pancreaticus) och galla (d. choledocus)",
+      "la": "Papilla duodeni major"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Mindre upphöjning i duodenums inre vägg med mynning för bukspott (d. pancreaticus accessorius)",
+      "la": "Papilla duodeni minor"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Främre krök på duodenum",
+      "la": "Flexura duodeni "
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Bakåtgående del av duodenum",
+      "la": "Pars descendens"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Bakre krök på duodenum",
+      "la": "Flexura duodeni "
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Framåtgående del av duodenum",
+      "la": "Pars ascendens"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Veck/hinna mellan duodenum- och tjocktarm",
+      "la": "Plica duodenocolica"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Duodenums krös",
+      "la": "Mesoduodenum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Tunntarmens huvuddel",
+      "la": "Jejunum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Jejunums krös",
+      "la": "Mesojejunum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Sista delen av tunntarmen",
+      "la": "Ileum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Veck/hinna mellan tunn- och blindtarm",
+      "la": "Plica ileocecalis"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum tenue",
+      "sv": "Ileums krös",
+      "la": "Mesoileum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "",
+      "sv": "Grovtarm",
+      "la": "Intestinum crassum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum crassum",
+      "sv": "Blindtarm",
+      "la": "Cecum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum crassum",
+      "sv": "Tjocktarm",
+      "la": "Colon"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum crassum",
+      "sv": "Framåtgående del av kolon",
+      "la": "Colon ascendens"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum crassum",
+      "sv": "Tvärgående del av kolon",
+      "la": "Colon transversum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum crassum",
+      "sv": "Bakåtgånde del av kolon",
+      "la": "Colon descendens"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum crassum",
+      "sv": "Kolons krös",
+      "la": "Mesocolon"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Intestinum crassum",
+      "sv": "Ändtarmen",
+      "la": "Rectum"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "",
+      "sv": "Analkanal",
+      "la": "Canalis analis"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Canalis analis",
+      "sv": "Ändtarmsmynning",
+      "la": "Anus"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Canalis analis",
+      "sv": "Ändtarmsmynningens inre ringmuskler/slutmuskler",
+      "la": "M. sphincter ani "
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Canalis analis",
+      "sv": "Ändtarmsmynningens yttre ringmuskler/slutmuskler",
+      "la": "M. sphincter ani "
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Canalis analis",
+      "sv": "Analsäck",
+      "la": "Sinus paranalis"
+    },
+    {
+      "group": "Cavum abdominis",
+      "subGroup": "Canalis analis",
+      "sv": "Analsäckskörtlar",
+      "la": "Glandulae sinus paranales"
+    },
+    { "group": "", "subGroup": "", "sv": "Lever", "la": "Hepar" },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Leverns vänstra flik - hos hund uppdelad:",
+      "la": "Lobus hepatis sinister"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Leverns vänstra ”inre” flik",
+      "la": "Lobus hepatis sinister medialis"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Leverns vänstra ”yttre” flik",
+      "la": "Lobus hepatis sinister lateralis"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Leverns “fyrkantiga” flik",
+      "la": "Lobus quadratus"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Leverns högra flik - hos hund uppdelad:",
+      "la": "Lobus hepatis dexter"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Leverns högra ”inre” flik",
+      "la": "Lobus hepatis dexter medialis"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Leverns högra ”yttre” flik",
+      "la": "Lobus hepatis dexter lateralis"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Leverns bakre flik - uppdelad i:",
+      "la": "Lobus caudatus"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Del av leverns bakre flik (åt vänster)",
+      "la": "Lobus caudatus processus papillaris"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Del av leverns bakre flik (åt höger)",
+      "la": "Lobus caudatus processus caudatus"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Yta mot andra organ",
+      "la": "Facies visceralis"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Yta mot mellangärdet",
+      "la": "Facies diaphragmatica"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Portaområde",
+      "la": "Porta hepatis"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Gallblåsa",
+      "la": "Vesica fellea"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Gallgång till gallblåsan och till d choledochus",
+      "la": "Ductus cysticus"
+    },
+    {
+      "group": "Hepar",
+      "subGroup": "",
+      "sv": "Gallgång till tarmen",
+      "la": "Ductus choledochus"
+    },
+    { "group": "", "subGroup": "", "sv": "Bukspottkörtel", "la": "Pancreas" },
+    {
+      "group": "Pancreas",
+      "subGroup": "",
+      "sv": "Bukspottkörtelns vänstra flik",
+      "la": "Lobus pancreatis sinister"
+    },
+    {
+      "group": "Pancreas",
+      "subGroup": "",
+      "sv": "Bukspottkörtelns mittersta del",
+      "la": "Corpus pancreatis"
+    },
+    {
+      "group": "Pancreas",
+      "subGroup": "",
+      "sv": "Bukspottkörtelns högra flik",
+      "la": "Lobus pancreatis dexter"
+    },
+    {
+      "group": "Pancreas",
+      "subGroup": "",
+      "sv": "Bukspottkörtelns utförsgång till papilla major i duodenum - mindre gång hos hund",
+      "la": "Ductus pancreaticus"
+    },
+    {
+      "group": "Pancreas",
+      "subGroup": "",
+      "sv": "Bukspottkörtelns utförsgång till papilla minor i duodenum - större gång hos hund",
+      "la": "Ductus pancreaticus accessorius"
+    }
+  ]
+}
