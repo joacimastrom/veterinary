@@ -43,7 +43,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
   const [hints, setHints] = useState(getHints(0, wordSet));
   const [textValue, setTextValue] = useState("");
   const [modeSlider, setModeSlider] = useState(0);
-  const [mode, setMode] = useState({ from: "la", to: "se" });
+  const [mode, setMode] = useState({ from: "la", to: "sv" });
   const [showSettings, setShowSettings] = useState(false);
 
   const { group, subGroup, ...currentWord } = wordSet[currentIndex];

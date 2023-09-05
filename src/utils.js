@@ -19,10 +19,10 @@ export const shuffleArray = (unshuffled) =>
     .map(({ value }) => value);
 
 export const getMode = (mode) => {
-  if (!mode) return { from: "se", to: "la" };
-  if (mode === 100) return { from: "la", to: "se" };
+  if (!mode) return { from: "sv", to: "la" };
+  if (mode === 100) return { from: "la", to: "sv" };
 
   return Math.floor(Math.random() * 2)
-    ? { from: "se", to: "la" }
-    : { from: "la", to: "se" };
+    ? { from: "sv", to: "la" }
+    : { from: "la", to: "sv" };
 };

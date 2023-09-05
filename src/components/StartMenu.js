@@ -23,7 +23,7 @@ export const StartMenu = ({ shuffle, setShuffle, setCurrentDomain }) => {
       {domains.map(({ domain }, index) => (
         <Card
           key={domain}
-          sx={{ minWidth: 275 }}
+          sx={{ minWidth: 275, mb: 1.5 }}
           onClick={() => setExpanded(expanded === index ? null : index)}
         >
           <CardContent sx={{ paddingBottom: "1rem !important" }}>

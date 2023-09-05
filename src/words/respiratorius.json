@@ -1,0 +1,245 @@
+{
+  "domain": "Apparatus Respiratorius",
+  "words": [
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "",
+      "la": "Nasus",
+      "sv": "Nos"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "Nasus",
+      "la": "Planum nasale",
+      "sv": "”Nosspegel”"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "Nasus",
+      "la": "Philtrum",
+      "sv": "“Nosfåra”"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "",
+      "la": "Cavum nasi",
+      "sv": "Näshåla"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "Cavum nasi",
+      "la": "Septum nasi",
+      "sv": "Nässkiljevägg"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "Cavum nasi",
+      "la": "Conchae nasales",
+      "sv": "Näsmusslor"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "Cavum nasi",
+      "la": "Choanae",
+      "sv": "Öppning mellan näshåla och svalg"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "Cavum nasi",
+      "la": "Ductus nasolacrimalis",
+      "sv": "Tårkanal"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "Cavum nasi",
+      "la": "Sinus paranasales",
+      "sv": "Bihålorna"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "",
+      "la": "Recessus maxillaris",
+      "sv": "”Käkhåla”"
+    },
+    {
+      "group": "Övre luftvägarna",
+      "subGroup": "",
+      "la": "Sinus frontalis",
+      "sv": "Pannhåla"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "",
+      "la": "Larynx",
+      "sv": "Struphuvudet"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Larynx",
+      "la": "Cartilagines laryngis",
+      "sv": "Struphuvudets brosk (samlingsnamn)"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Larynx",
+      "la": "Cartilago thyroidea",
+      "sv": "Sköldbrosk"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Larynx",
+      "la": "Cartilago epiglottica",
+      "sv": "Slutbrosk, Epiglottis"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Larynx",
+      "la": "Cartilago cricoidea",
+      "sv": "Ringbrosk"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Larynx",
+      "la": "Cartilago arytenoidea",
+      "sv": "Kannbrosk"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Larynx",
+      "la": "Cavum laryngis",
+      "sv": "Struphuvudets hålrum"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Larynx",
+      "la": "Plica vocalis",
+      "sv": "Stämband"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "",
+      "la": "Trachea",
+      "sv": "Luftstrupe"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Trachea",
+      "la": "Cartilagines tracheales",
+      "sv": "Luftstrupens “broskringar”"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Trachea",
+      "la": "Bifurcatio tracheae",
+      "sv": "Luftstrupens förgrening"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "",
+      "la": "Cavum thoracis",
+      "sv": "Brösthåla"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Cavum thoracis",
+      "la": "Mediastinum",
+      "sv": "”Vägg” som delar brösthålan i två halvor"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Cavum thoracis",
+      "la": "Pleura",
+      "sv": "Lungsäck/brösthinna"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Cavum thoracis",
+      "la": "Pleura parietalis",
+      "sv": "Lungsäckens/brösthinnans yttre blad, mot Bröstkorgsvägg, diafragma och mediastinum"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Cavum thoracis",
+      "la": "Cavum pleurae",
+      "sv": "Hålrum mellan lungsäckens inre och yttre blad"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Cavum thoracis",
+      "la": "Pleura pulmonalis",
+      "sv": "Lungsäckens inre blad mot lungvävnaden"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Cavum thoracis",
+      "la": "Plica venae cavae",
+      "sv": "Bra svenskt ord saknas (Pleuraveck)"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "",
+      "la": "Diaphragma",
+      "sv": "Mellangärde"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "",
+      "la": "Pulmones",
+      "sv": "Lungor"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Bronchi",
+      "sv": "Luftrör"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Bronchuli",
+      "sv": "Små luftrör"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Sacculi alveolares",
+      "sv": "Lungblåsor"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Lobus cranialis",
+      "sv": "Spetsflik"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Pars cranialis",
+      "sv": "Spetsflikens främre del"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Pars caudalis",
+      "sv": "Spetsflikens bakre del"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Lobus medius",
+      "sv": "Hjärtflik"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Lobus caudalis",
+      "sv": "Lungflik mot mellangärdet (diafragmaflik)"
+    },
+    {
+      "group": "Nedre luftvägarna",
+      "subGroup": "Pulmones",
+      "la": "Lobus accessorius",
+      "sv": "Accessorisk flik"
+    }
+  ]
+}
