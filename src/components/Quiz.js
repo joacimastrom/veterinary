@@ -50,6 +50,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
   const [textValue, setTextValue] = useState("");
   const [modeSlider, setModeSlider] = useState(0);
   const [mode, setMode] = useState({ from: "la", to: "se" });
+  const [showSettings, setShowSettings] = useState(false);
 
   useEffect(() => {
     setHints(getHints(currentIndex, wordSet));
@@ -170,38 +171,48 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
           </Button>
         </CardActions>
       </Card>
-      <Card sx={{ minWidth: 275, marginTop: "1rem" }}>
-        <CardContent>
-          <Typography>Översätt från</Typography>
-          <Slider
-            value={modeSlider}
-            onChange={(e) => setModeSlider(e.target.value)}
-            sx={{ width: 200, marginBottom: "1.5rem" }}
-            defaultValue={0}
-            step={50}
-            marks={translationOptions}
-            label="Språk"
-          />
-          <FormGroup>
-            <FormControlLabel
-              control={
-                <Switch
-                  checked={showGroup}
-                  onChange={() => setShowGroup((curr) => !curr)}
-                />
-              }
-              label="Visa grupp"
+      <Card sx={{ minWidth: 275, marginTop: "0.5rem" }}>
+        <CardContent sx={{ padding: "0.5rem !important" }}>
+          <Typography
+            onClick={() => setShowSettings((curr) => !curr)}
+            color="text.secondary"
+          >
+            Inställningar
+          </Typography>
+          <Collapse in={showSettings}>
+            <Typography mt={1} mb={-1}>
+              Översätt från
+            </Typography>
+            <Slider
+              value={modeSlider}
+              onChange={(e) => setModeSlider(e.target.value)}
+              sx={{ width: 200, marginBottom: "1.5rem" }}
+              defaultValue={0}
+              step={50}
+              marks={translationOptions}
+              label="Språk"
             />
-            <FormControlLabel
-              control={
-                <Switch
-                  checked={showSubGroup}
-                  onChange={() => setShowSubGrup((curr) => !curr)}
-                />
-              }
-              label="Visa undergrupp"
-            />
-          </FormGroup>
+            <FormGroup>
+              <FormControlLabel
+                control={
+                  <Switch
+                    checked={showGroup}
+                    onChange={() => setShowGroup((curr) => !curr)}
+                  />
+                }
+                label="Visa grupp"
+              />
+              <FormControlLabel
+                control={
+                  <Switch
+                    checked={showSubGroup}
+                    onChange={() => setShowSubGrup((curr) => !curr)}
+                  />
+                }
+                label="Visa undergrupp"
+              />
+            </FormGroup>
+          </Collapse>
         </CardContent>
       </Card>
     </>
