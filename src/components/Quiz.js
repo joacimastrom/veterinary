@@ -20,6 +20,7 @@ import {
   checkPartOfWord,
   getAlternatives,
   getHint,
+  getHintLength,
   getMode,
   shuffleArray,
 } from "./../utils";
@@ -73,18 +74,14 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
   const getNextLetter = () => {
     setTextValue(getHint(toWord, hintLength));
     if (hintLength !== toWord.length) {
-      setHintLength((curr) => curr + 1);
+      setHintLength((curr) => getHintLength(curr, toWord));
     }
   };
 
-  const onChange = (e) => {
-    setTextValue(e.target.value);
-    if (
-      checkPartOfWord(textValue, toWord) &&
-      e.target.value.length > hintLength
-    ) {
-      console.log("test");
-      setHintLength(e.target.value.length + 1);
+  const onChange = ({ target: { value } }) => {
+    setTextValue(value);
+    if (checkPartOfWord(value, toWord) && value.length >= hintLength) {
+      setHintLength((curr) => getHintLength(curr, toWord));
     }
   };
 

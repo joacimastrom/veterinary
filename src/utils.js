@@ -14,6 +14,11 @@ export const getAlternatives = (current, wordSet) => {
 
 export const getHint = (word, length) => word.substring(0, length);
 
+export const getHintLength = (current, toWord) => {
+  if (toWord[current] === " ") return current + 2;
+  return current + 1;
+};
+
 export const checkPartOfWord = (value, word) =>
   word.toLowerCase().trim().indexOf(value.toLowerCase().trim()) === 0;
 
