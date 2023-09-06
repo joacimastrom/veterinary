@@ -77,6 +77,17 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
     }
   };
 
+  const onChange = (e) => {
+    setTextValue(e.target.value);
+    if (
+      checkPartOfWord(textValue, toWord) &&
+      e.target.value.length > hintLength
+    ) {
+      console.log("test");
+      setHintLength(e.target.value.length + 1);
+    }
+  };
+
   return (
     <>
       <Button
@@ -127,7 +138,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
               e.key === "Enter" && correctAnswer && changeQuestion(1)
             }
             value={textValue}
-            onChange={(e) => setTextValue(e.target.value)}
+            onChange={onChange}
             id="standard-basic"
             label="Svar"
             variant="standard"
