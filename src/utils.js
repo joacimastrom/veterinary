@@ -3,7 +3,7 @@ export const getUnique = (array) => Math.floor(Math.random() * array.length);
 export const checkEqual = (a, b) =>
   a.toLowerCase().trim() === b.toLowerCase().trim();
 
-export const getHints = (current, wordSet) => {
+export const getAlternatives = (current, wordSet) => {
   const hints = [current];
   while (hints.length < 3) {
     var candidateInt = Math.floor(Math.random() * wordSet.length - 1) + 1;
@@ -11,6 +11,8 @@ export const getHints = (current, wordSet) => {
   }
   return shuffleArray(hints);
 };
+
+export const getHint = (word, length) => word.substring(0, length);
 
 export const checkPartOfWord = (value, word) =>
   word.toLowerCase().trim().indexOf(value.toLowerCase().trim()) === 0;

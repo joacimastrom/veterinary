@@ -18,7 +18,8 @@ import { useState } from "react";
 import {
   checkEqual,
   checkPartOfWord,
-  getHints,
+  getAlternatives,
+  getHint,
   getMode,
   shuffleArray,
 } from "./../utils";
@@ -45,26 +46,36 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
     shuffle ? shuffleArray(domain.words) : domain.words
   );
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showHints, setShowHints] = useState(false);
-  const [hints, setHints] = useState(getHints(0, wordSet));
+  const [showAlternatives, setShowAlternatives] = useState(false);
+  const [alternatives, setAlternatives] = useState(getAlternatives(0, wordSet));
   const [textValue, setTextValue] = useState("");
   const [modeSlider, setModeSlider] = useState(0);
   const [mode, setMode] = useState({ from: "sv", to: "la" });
   const [showSettings, setShowSettings] = useState(false);
+  const [hintLength, setHintLength] = useState(1);
 
   const { group, subGroup, ...currentWord } = wordSet[currentIndex];
 
-  const partlyCorrect = checkPartOfWord(textValue, currentWord[mode.to]);
-  const correctAnswer = checkEqual(textValue, currentWord[mode.to]);
+  const toWord = currentWord[mode.to].trim();
+  const partlyCorrect = checkPartOfWord(textValue, toWord);
+  const correctAnswer = checkEqual(textValue, toWord);
 
   const changeQuestion = (direction) => {
-    setShowHints(false);
+    setShowAlternatives(false);
     setMode(getMode(modeSlider));
     setTextValue("");
-    setHints(getHints(currentIndex + direction, wordSet));
+    setAlternatives(getAlternatives(currentIndex + direction, wordSet));
     setCurrentIndex((current) => current + direction);
+    setHintLength(1);
   };
   const onLastQuestion = currentIndex === wordSet.length - 1;
+
+  const getNextLetter = () => {
+    setTextValue(getHint(toWord, hintLength));
+    if (hintLength !== toWord.length) {
+      setHintLength((curr) => curr + 1);
+    }
+  };
 
   return (
     <>
@@ -121,17 +132,27 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
             label="Svar"
             variant="standard"
             error={!partlyCorrect}
-            color={correctAnswer && "success"}
+            color={correctAnswer ? "success" : null}
           />
 
-          <Box sx={{ marginTop: "1rem", marginBottom: "0.5rem" }}>
+          <Box
+            sx={{
+              marginTop: "0rem",
+              marginBottom: "0.5rem",
+              flexDirection: "column",
+              display: "flex",
+            }}
+          >
+            <Button size="small" onClick={getNextLetter}>
+              Liten ledtråd
+            </Button>
             <Button
               size="small"
-              onClick={() => setShowHints((current) => !current)}
+              onClick={() => setShowAlternatives((current) => !current)}
             >
-              Ledtråd
+              Alternativ
             </Button>
-            <Collapse in={showHints}>
+            <Collapse in={showAlternatives}>
               <Box
                 sx={{
                   display: "flex",
@@ -140,13 +161,13 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
                   alignItems: "center",
                 }}
               >
-                {hints.map((hintIndex) => {
+                {alternatives.map((hintIndex) => {
                   const hint = wordSet[hintIndex][mode.to];
                   return (
                     <Grow
-                      in={showHints}
+                      in={showAlternatives}
                       key={hintIndex}
-                      {...(showHints ? { timeout: 500 } : {})}
+                      {...(showAlternatives ? { timeout: 500 } : {})}
                     >
                       <Chip
                         sx={{
