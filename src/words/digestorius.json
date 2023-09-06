@@ -7,7 +7,7 @@
     {
       "group": "Cavum oris",
       "subGroup": "",
-      "sv": "Tandkött (munhålans slemhinna)",
+      "sv": "Tandkött",
       "la": "Gingiva"
     },
     {
@@ -33,48 +33,48 @@
       "group": "Cavum oris",
       "subGroup": "Dentes",
       "sv": "Mjölktänder",
-      "la": "Dentes decidui (= Dd)"
+      "la": "Dentes decidui"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
       "sv": "Permanenta tänder",
-      "la": "Dentes permanentes (= Dp)"
+      "la": "Dentes permanentes"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
       "sv": "Framtänder",
-      "la": "Dentes incisivi (= I)"
+      "la": "Dentes incisivi"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
       "sv": "Hörntänder",
-      "la": "Dentes canini (= C)"
+      "la": "Dentes canini"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
       "sv": "Främre kindtänder",
-      "la": "Dentes premolares (= P)"
+      "la": "Dentes premolares"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
       "sv": "Bakre kindtänder",
-      "la": "Dentes molares (= M)"
+      "la": "Dentes molares"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
-      "sv": "Rovtand (största kindtanden)",
-      "la": "Dens sectorius (P4 och M1)"
+      "sv": "Rovtand",
+      "la": "Dens sectorius"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
-      "sv": "Tandkrona (synliga delen)",
+      "sv": "Tandkrona",
       "la": "Corona dentis"
     },
     {
@@ -86,19 +86,19 @@
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
-      "sv": "Tandhals (mellan krona och rot)",
+      "sv": "Tandhals",
       "la": "Cervix dentis"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
-      "sv": "Tandpulpa (kärl och nerver)",
+      "sv": "Tandpulpa",
       "la": "Pulpa dentis"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Dentes",
-      "sv": "Rotkanal (där pulpan smalnar)",
+      "sv": "Rotkanal",
       "la": "Canalis radicis dentis"
     },
     {
@@ -135,13 +135,13 @@
     {
       "group": "Cavum oris",
       "subGroup": "Lingua",
-      "sv": "Tungpapiller, bär smaklökar eller har mekanisk funktion",
+      "sv": "Tungpapiller",
       "la": "Papillae linguales"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Lingua",
-      "sv": "Tungband (under tungan)",
+      "sv": "Tungband",
       "la": "Frenulum linguae"
     },
     {
@@ -159,7 +159,7 @@
     {
       "group": "Cavum oris",
       "subGroup": "Glandula",
-      "sv": "Munspottkörtlar (samlingsnamn)",
+      "sv": "Munspottkörtlar",
       "la": "Glandulae oris"
     },
     {
