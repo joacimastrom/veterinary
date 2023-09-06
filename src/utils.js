@@ -12,6 +12,9 @@ export const getHints = (current, wordSet) => {
   return shuffleArray(hints);
 };
 
+export const checkPartOfWord = (value, word) =>
+  word.toLowerCase().trim().indexOf(value.toLowerCase().trim()) === 0;
+
 export const shuffleArray = (unshuffled) =>
   unshuffled
     .map((value) => ({ value, sort: Math.random() }))

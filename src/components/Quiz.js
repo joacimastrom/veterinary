@@ -15,7 +15,13 @@ import {
   Typography,
 } from "@mui/material";
 import { useState } from "react";
-import { checkEqual, getHints, getMode, shuffleArray } from "./../utils";
+import {
+  checkEqual,
+  checkPartOfWord,
+  getHints,
+  getMode,
+  shuffleArray,
+} from "./../utils";
 
 export const translationOptions = [
   {
@@ -48,6 +54,7 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
 
   const { group, subGroup, ...currentWord } = wordSet[currentIndex];
 
+  const partlyCorrect = checkPartOfWord(textValue, currentWord[mode.to]);
   const correctAnswer = checkEqual(textValue, currentWord[mode.to]);
 
   const changeQuestion = (direction) => {
@@ -113,6 +120,8 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
             id="standard-basic"
             label="Svar"
             variant="standard"
+            error={!partlyCorrect}
+            color={correctAnswer && "success"}
           />
 
           <Box sx={{ marginTop: "1rem", marginBottom: "0.5rem" }}>
