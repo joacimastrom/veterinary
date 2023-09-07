@@ -342,7 +342,7 @@
       "group": "Cavum abdominis",
       "subGroup": "Intestinum tenue",
       "sv": "Främre krök på duodenum",
-      "la": "Flexura duodeni "
+      "la": "Flexura duodeni cranialis"
     },
     {
       "group": "Cavum abdominis",
@@ -354,7 +354,7 @@
       "group": "Cavum abdominis",
       "subGroup": "Intestinum tenue",
       "sv": "Bakre krök på duodenum",
-      "la": "Flexura duodeni "
+      "la": "Flexura duodeni caudalis"
     },
     {
       "group": "Cavum abdominis",
@@ -468,13 +468,13 @@
       "group": "Cavum abdominis",
       "subGroup": "Canalis analis",
       "sv": "Ändtarmsmynningens inre ringmuskler/slutmuskler",
-      "la": "M. sphincter ani "
+      "la": "Musculi sphincter ani internus"
     },
     {
       "group": "Cavum abdominis",
       "subGroup": "Canalis analis",
       "sv": "Ändtarmsmynningens yttre ringmuskler/slutmuskler",
-      "la": "M. sphincter ani "
+      "la": "Musculi sphincter ani externus"
     },
     {
       "group": "Cavum abdominis",
@@ -492,19 +492,19 @@
     {
       "group": "Hepar",
       "subGroup": "",
-      "sv": "Leverns vänstra flik - hos hund uppdelad:",
+      "sv": "Leverns vänstra flik",
       "la": "Lobus hepatis sinister"
     },
     {
       "group": "Hepar",
-      "subGroup": "",
-      "sv": "Leverns vänstra ”inre” flik",
+      "subGroup": "Lobus hepatis sinister",
+      "sv": "Leverns vänstra inre flik",
       "la": "Lobus hepatis sinister medialis"
     },
     {
       "group": "Hepar",
-      "subGroup": "",
-      "sv": "Leverns vänstra ”yttre” flik",
+      "subGroup": "Lobus hepatis sinister",
+      "sv": "Leverns vänstra  yttre flik",
       "la": "Lobus hepatis sinister lateralis"
     },
     {
@@ -516,36 +516,36 @@
     {
       "group": "Hepar",
       "subGroup": "",
-      "sv": "Leverns högra flik - hos hund uppdelad:",
+      "sv": "Leverns högra flik",
       "la": "Lobus hepatis dexter"
     },
     {
       "group": "Hepar",
-      "subGroup": "",
-      "sv": "Leverns högra ”inre” flik",
+      "subGroup": "Lobus hepatis dexter",
+      "sv": "Leverns högra inre flik",
       "la": "Lobus hepatis dexter medialis"
     },
     {
       "group": "Hepar",
-      "subGroup": "",
-      "sv": "Leverns högra ”yttre” flik",
+      "subGroup": "Lobus hepatis dexter",
+      "sv": "Leverns högra yttre flik",
       "la": "Lobus hepatis dexter lateralis"
     },
     {
       "group": "Hepar",
       "subGroup": "",
-      "sv": "Leverns bakre flik - uppdelad i:",
+      "sv": "Leverns bakre flik",
       "la": "Lobus caudatus"
     },
     {
       "group": "Hepar",
-      "subGroup": "",
+      "subGroup": "Lobus caudatus",
       "sv": "Del av leverns bakre flik (åt vänster)",
       "la": "Lobus caudatus processus papillaris"
     },
     {
       "group": "Hepar",
-      "subGroup": "",
+      "subGroup": "Lobus caudatus",
       "sv": "Del av leverns bakre flik (åt höger)",
       "la": "Lobus caudatus processus caudatus"
     },
