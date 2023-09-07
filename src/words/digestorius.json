@@ -166,19 +166,19 @@
       "group": "Cavum oris",
       "subGroup": "Glandula",
       "sv": "Öronspottkörtel",
-      "la": "Gl. parotis"
+      "la": "Glandulae parotis"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Glandula",
       "sv": "Käkspottkörtel",
-      "la": "Gl. mandibularis"
+      "la": "Glandula mandibularis"
     },
     {
       "group": "Cavum oris",
       "subGroup": "Glandula",
       "sv": "Undertungspottkörtlar",
-      "la": "Gll. sublinguales"
+      "la": "Glandulae sublinguales"
     },
     { "group": "Cavum oris", "subGroup": "", "sv": "Svalg", "la": "Pharynx" },
     {
@@ -215,19 +215,19 @@
     {
       "group": "Cavum abdominis",
       "subGroup": "",
-      "sv": "Bukhinnans yttre blad mot bukväggen",
+      "sv": "Bukhinnans yttre skikt mot bukväggen",
       "la": "Peritoneum parietale"
     },
     {
       "group": "Cavum abdominis",
       "subGroup": "",
-      "sv": "Bukhinnans inre blad mot organen",
+      "sv": "Bukhinnans inre skikt mot organen",
       "la": "Peritoneum viscerale"
     },
     {
       "group": "Cavum abdominis",
       "subGroup": "",
-      "sv": "Bukväggens mittlinje “Vita linjen”",
+      "sv": "Bukväggens mittlinje",
       "la": "Linea alba"
     },
     {
@@ -240,13 +240,13 @@
       "group": "Cavum abdominis",
       "subGroup": "Ventriculus",
       "sv": "Magsäckens stora kurvatur",
-      "la": "Curvatura ventriculi "
+      "la": "Curvatura ventriculi major"
     },
     {
       "group": "Cavum abdominis",
       "subGroup": "Ventriculus",
       "sv": "Magsäckens lilla kurvatur",
-      "la": "Curvatura ventriculi "
+      "la": "Curvatura ventriculi minor"
     },
     {
       "group": "Cavum abdominis",
