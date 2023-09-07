@@ -1,0 +1,134 @@
+{
+  "domain": "Organa genitalia feminina",
+  "words": [
+    { "group": "", "subGroup": "", "sv": "Äggstock", "la": "Ovarium" },
+    {
+      "group": "",
+      "subGroup": "Ovarium",
+      "sv": "Äggstocksficka",
+      "la": "Bursa ovarica"
+    },
+    {
+      "group": "",
+      "subGroup": "Ovarium",
+      "sv": "Äggblåsor/folliklar",
+      "la": "Folliculi ovarici"
+    },
+    {
+      "group": "",
+      "subGroup": "Ovarium",
+      "sv": "Gulkropp",
+      "la": "Corpus luteum"
+    },
+    {
+      "group": "",
+      "subGroup": "Ovarium",
+      "sv": "Äggstockskrös",
+      "la": "Mesovarium"
+    },
+    {
+      "group": "",
+      "subGroup": "Ovarium",
+      "sv": "Förlängning från lig. latum i kranial riktning. Sträcker sig mot njuren från äggstocken (finns enbart hos karnivorer)",
+      "la": "Lig. suspensorium ovarii"
+    },
+    { "group": "", "subGroup": "", "sv": "Äggledare", "la": "Tuba uterina" },
+    {
+      "group": "",
+      "subGroup": "Tuba uterina",
+      "sv": "Äggledartratt, närmast äggstocken",
+      "la": "Infundibulum tubae uterinae"
+    },
+    {
+      "group": "",
+      "subGroup": "Tuba uterina",
+      "sv": "Äggledartrattens fransar",
+      "la": "Fimbriae tubae"
+    },
+    {
+      "group": "",
+      "subGroup": "Tuba uterina",
+      "sv": "Äggledarens mittdel",
+      "la": "Ampulla tubae uterinae"
+    },
+    {
+      "group": "",
+      "subGroup": "Tuba uterina",
+      "sv": "Äggledarens smalare del mot livmodern",
+      "la": "Isthmus tubae uterinae"
+    },
+    {
+      "group": "",
+      "subGroup": "Tuba uterina",
+      "sv": "Äggledarens krös (utbuktning av lig latum)",
+      "la": "Mesosalpinx"
+    },
+    { "group": "", "subGroup": "", "sv": "Livmoder", "la": "Uterus" },
+    {
+      "group": "",
+      "subGroup": "Uterus",
+      "sv": "Livmoderhorn",
+      "la": "Cornua uteri"
+    },
+    {
+      "group": "",
+      "subGroup": "Uterus",
+      "sv": "Livmoderkropp",
+      "la": "Corpus uteri"
+    },
+    {
+      "group": "",
+      "subGroup": "Uterus",
+      "sv": "Livmoderhals",
+      "la": "Cervix uteri"
+    },
+    {
+      "group": "",
+      "subGroup": "Uterus",
+      "sv": "Breda livmoderligamentet",
+      "la": "Lig. latum uteri"
+    },
+    {
+      "group": "",
+      "subGroup": "Uterus",
+      "sv": "Livmoderns krös",
+      "la": "Mesometrium"
+    },
+    {
+      "group": "",
+      "subGroup": "Uterus",
+      "sv": "Ventral, strängliknande förtjockning av lig. latum som sträcker sig ner mot inguinalkanalen och in i proc. vaginalis",
+      "la": "Lig. teres uteri"
+    },
+    {
+      "group": "",
+      "subGroup": "Uterus",
+      "sv": "Fickbildning av peritoneum ner mot inguinalkanalen (spec. hos tik)",
+      "la": "Processus vaginalis"
+    },
+    { "group": "", "subGroup": "", "sv": "Slida", "la": "Vagina" },
+    {
+      "group": "",
+      "subGroup": "Vagina",
+      "sv": "Slidvalvet",
+      "la": "Fornix vaginae"
+    },
+    { "group": "", "subGroup": "Vagina", "sv": "Mödomshinna", "la": "Hymen" },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Slidans förgård, från urethras mynning till vulva",
+      "la": "Vestibulum vaginae"
+    },
+    { "group": "", "subGroup": "", "sv": "Blygd", "la": "Vulva" },
+    {
+      "group": "",
+      "subGroup": "Vulva",
+      "sv": "Blygdläppar",
+      "la": "Labium vulvae"
+    },
+    { "group": "", "subGroup": "Vulva", "sv": "Klitoris", "la": "Clitoris" },
+    { "group": "", "subGroup": "", "sv": "Mjölkkörtel", "la": "Mamma" },
+    { "group": "", "subGroup": "", "sv": "Spene", "la": "Papilla mammae" }
+  ]
+}

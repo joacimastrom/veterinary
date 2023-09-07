@@ -1,0 +1,71 @@
+{
+  "domain": "Organa urinaria",
+  "words": [
+    { "group": "", "subGroup": "", "sv": "Njure", "la": "Ren" },
+    {
+      "group": "",
+      "subGroup": "Ren",
+      "sv": "Njurkapselns fettskikt",
+      "la": "Capsula adiposa"
+    },
+    {
+      "group": "",
+      "subGroup": "Ren",
+      "sv": "Njurkapselns bindvävsskikt",
+      "la": "Capsula fibrosa"
+    },
+    { "group": "", "subGroup": "Ren", "sv": "Njurbark", "la": "Cortex renis" },
+    { "group": "", "subGroup": "Ren", "sv": "Njurmärg", "la": "Medulla renis" },
+    {
+      "group": "",
+      "subGroup": "Ren",
+      "sv": "Njurlober (märgpyramider med tillhörande bark)",
+      "la": "Lobi renales"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Längsgående ås där samlingsrören mynnar",
+      "la": "Crista renalis"
+    },
+    { "group": "", "subGroup": "", "sv": "Njurbäcken", "la": "Pelvis renalis" },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "”Njurkärlrot”",
+      "la": "Hilus renalis"
+    },
+    { "group": "", "subGroup": "", "sv": "Urinledare", "la": "Ureter" },
+    { "group": "", "subGroup": "", "sv": "Bäckenhålan", "la": "Cavum pelvis" },
+    {
+      "group": "Cavum pelvis",
+      "subGroup": "",
+      "sv": "Urinblåsa",
+      "la": "Vesica urinaria"
+    },
+    {
+      "group": "Cavum pelvis",
+      "subGroup": "Vesica urinaria",
+      "sv": "Urinblåsans kraniala del",
+      "la": "Apex vesicae"
+    },
+    {
+      "group": "Cavum pelvis",
+      "subGroup": "Vesica urinaria",
+      "sv": "Urinblåsans huvuddel",
+      "la": "Corpus vesicae"
+    },
+    {
+      "group": "Cavum pelvis",
+      "subGroup": "Vesica urinaria",
+      "sv": "Blåshals",
+      "la": "Cervix vesicae"
+    },
+    {
+      "group": "Cavum pelvis",
+      "subGroup": "",
+      "sv": "Urinrör",
+      "la": "Urethra"
+    }
+  ]
+}
