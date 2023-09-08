@@ -61,8 +61,8 @@ export const StartMenu = ({
               </Box>
               {savedWords && (
                 <>
-                  <Divider />
-                  <Button onClick={onStartSaved}>Starta sparade ord</Button>
+                  <Divider sx={{ margin: "0.5rem 0" }} />
+                  <Button onClick={onStartSaved}>Öva sparade ord</Button>
                 </>
               )}
             </Collapse>

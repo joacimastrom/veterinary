@@ -10,8 +10,8 @@ function App() {
   const [wordSet, setWordSet] = useState();
 
   const onBack = () => {
-    setWordSet(null);
     setCurrentDomain(null);
+    setWordSet(null);
   };
 
   const selectedDomain =
