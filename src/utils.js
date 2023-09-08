@@ -36,3 +36,36 @@ export const getMode = (mode) => {
     ? { from: "sv", to: "la" }
     : { from: "la", to: "sv" };
 };
+
+export const checkIfWordIsSaved = (domain, wordIndex) => {
+  const savedWords = JSON.parse(localStorage.getItem("savedWords")) ?? {};
+  return savedWords[domain]?.indexOf(wordIndex) > -1;
+};
+
+export const saveWordToLocalStorage = (domain, wordIndex) => {
+  let savedWords = JSON.parse(localStorage.getItem("savedWords")) ?? {};
+
+  if (!savedWords[domain]) {
+    savedWords[domain] = [];
+  }
+  savedWords[domain] = [...savedWords[domain], wordIndex];
+
+  localStorage.setItem("savedWords", JSON.stringify(savedWords));
+};
+
+export const removeWordFromLocalStorage = (domain, wordIndex) => {
+  const savedWords = JSON.parse(localStorage.getItem("savedWords"));
+  const savedWordIndex = savedWords[domain].indexOf(wordIndex);
+  if (savedWordIndex > -1) {
+    savedWords[domain].splice(savedWordIndex, 1);
+  }
+
+  localStorage.setItem("savedWords", JSON.stringify(savedWords));
+};
+
+export const getSavedWordsOrFalse = (domain) => {
+  if (!domain) return false;
+  const savedWords = JSON.parse(localStorage.getItem("savedWords")) ?? {};
+  const domainWords = savedWords[domain];
+  return domainWords?.length ? domainWords : false;
+};

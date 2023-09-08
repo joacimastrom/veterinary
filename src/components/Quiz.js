@@ -1,3 +1,5 @@
+import StarIcon from "@mui/icons-material/Star";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
 import {
   Box,
   Button,
@@ -9,6 +11,7 @@ import {
   FormControlLabel,
   FormGroup,
   Grow,
+  IconButton,
   Input,
   Slider,
   Switch,
@@ -18,11 +21,14 @@ import {
 import { useRef, useState } from "react";
 import {
   checkEqual,
+  checkIfWordIsSaved,
   checkPartOfWord,
   getAlternatives,
   getHint,
   getHintLength,
   getMode,
+  removeWordFromLocalStorage,
+  saveWordToLocalStorage,
   shuffleArray,
 } from "./../utils";
 
@@ -41,7 +47,7 @@ export const translationOptions = [
   },
 ];
 
-export const Quiz = ({ domain, onBack, shuffle }) => {
+export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
   const [showGroup, setShowGroup] = useState(true);
   const [showSubGroup, setShowSubGrup] = useState(true);
   const [wordSet /* , setWordSet */] = useState(
@@ -49,16 +55,23 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
   );
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAlternatives, setShowAlternatives] = useState(false);
-  const [alternatives, setAlternatives] = useState(getAlternatives(0, wordSet));
+  const [alternatives, setAlternatives] = useState(
+    subSet ? getAlternatives(subSet[0], wordSet) : getAlternatives(0, wordSet)
+  );
   const [textValue, setTextValue] = useState("");
   const [modeSlider, setModeSlider] = useState(0);
   const [mode, setMode] = useState({ from: "sv", to: "la" });
   const [showSettings, setShowSettings] = useState(false);
   const [hintLength, setHintLength] = useState(1);
   const [jumpTo, setJumpTo] = useState("");
+  const [savedWord, setSavedWord] = useState(
+    checkIfWordIsSaved(domain.domain, subSet ? subSet[0] : 0)
+  );
   const inputRef = useRef();
 
-  const { group, subGroup, ...currentWord } = wordSet[currentIndex];
+  const { group, subGroup, ...currentWord } = subSet
+    ? wordSet[subSet[currentIndex]]
+    : wordSet[currentIndex];
 
   const toWord = currentWord[mode.to].trim();
   const partlyCorrect = checkPartOfWord(textValue, toWord);
@@ -70,13 +83,20 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
     setTextValue("");
     setJumpTo("");
     setShowSettings(false);
-    setAlternatives(getAlternatives(nextIndex, wordSet));
+    setAlternatives(
+      subSet
+        ? getAlternatives(subSet[nextIndex], wordSet)
+        : getAlternatives(nextIndex, wordSet)
+    );
+    setSavedWord(
+      checkIfWordIsSaved(domain.domain, subSet ? subSet[nextIndex] : nextIndex)
+    );
     setCurrentIndex(nextIndex);
     setHintLength(1);
     inputRef.current.focus();
   };
 
-  const onLastQuestion = currentIndex === wordSet.length - 1;
+  const onLastQuestion = currentIndex === (subSet || wordSet).length - 1;
 
   const getNextLetter = () => {
     setTextValue(getHint(toWord, hintLength));
@@ -90,6 +110,21 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
     if (checkPartOfWord(value, toWord) && value.length >= hintLength) {
       setHintLength((curr) => getHintLength(curr, toWord));
     }
+  };
+
+  const onSaveWord = () => {
+    saveWordToLocalStorage(
+      domain.domain,
+      subSet ? subSet[currentIndex] : currentIndex
+    );
+    setSavedWord(true);
+  };
+  const onRemoveSavedWord = () => {
+    removeWordFromLocalStorage(
+      domain.domain,
+      subSet ? subSet[currentIndex] : currentIndex
+    );
+    setSavedWord(false);
   };
 
   const validJumpTo = jumpTo > 0 && jumpTo <= wordSet.length;
@@ -118,10 +153,23 @@ export const Quiz = ({ domain, onBack, shuffle }) => {
               fontSize: 14,
               position: "absolute",
               top: "0.5rem",
-              right: "0.5rem",
+              left: "0.5rem",
             }}
             color="text.secondary"
-          >{`${currentIndex + 1}/${wordSet.length}`}</Typography>
+          >{`${currentIndex + 1}/${
+            subSet ? subSet.length : wordSet.length
+          }`}</Typography>
+          <IconButton
+            sx={{
+              fontSize: 14,
+              position: "absolute",
+              top: "0",
+              right: "0",
+            }}
+            onClick={savedWord ? onRemoveSavedWord : onSaveWord}
+          >
+            {savedWord ? <StarIcon /> : <StarBorderIcon />}
+          </IconButton>
           {group && (
             <Grow in={showGroup}>
               <Typography sx={{ fontSize: 14 }} color="text.secondary">

@@ -7,6 +7,15 @@ import { domains } from "./words/words";
 function App() {
   const [currentDomain, setCurrentDomain] = useState(null);
   const [shuffle, setShuffle] = useState(false);
+  const [wordSet, setWordSet] = useState();
+
+  const onBack = () => {
+    setWordSet(null);
+    setCurrentDomain(null);
+  };
+
+  const selectedDomain =
+    currentDomain && domains.find(({ domain }) => domain === currentDomain);
 
   return (
     <div className="App">
@@ -15,12 +24,14 @@ function App() {
           setShuffle={setShuffle}
           shuffle={shuffle}
           setCurrentDomain={setCurrentDomain}
+          setWordSet={setWordSet}
         />
       ) : (
         <Quiz
           shuffle={shuffle}
-          onBack={() => setCurrentDomain(null)}
-          domain={domains[currentDomain]}
+          onBack={onBack}
+          domain={selectedDomain}
+          subSet={wordSet}
         />
       )}
     </div>
