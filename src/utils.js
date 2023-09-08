@@ -20,7 +20,7 @@ export const getHintLength = (current, toWord) => {
 };
 
 export const checkPartOfWord = (value, word) =>
-  word.toLowerCase().trim().indexOf(value.toLowerCase().trim()) === 0;
+  word.toLowerCase().trim().indexOf(value.toLowerCase()) === 0;
 
 export const shuffleArray = (unshuffled) =>
   unshuffled
