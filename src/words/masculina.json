@@ -1,0 +1,155 @@
+{
+  "domain": "Organa genitalia masculina",
+  "words": [
+    { "group": "", "subGroup": "", "sv": "Pung/pungsäck", "la": "Scrotum" },
+    {
+      "group": "",
+      "subGroup": "Scrotum",
+      "sv": "Skiljevägg mellan punghålorna",
+      "la": "Septum scroti"
+    },
+    {
+      "group": "",
+      "subGroup": "Scrotum",
+      "sv": "Utbuktning av bukhinnan som bildar glatta ytor (serös hinna) i pungsäcken och sädessträngskanalen",
+      "la": "Tunica vaginalis"
+    },
+    {
+      "group": "",
+      "subGroup": "Scrotum",
+      "sv": "Parietala bladet av pungsäckens serösa hinna",
+      "la": "Lamina parietalis"
+    },
+    {
+      "group": "",
+      "subGroup": "Scrotum",
+      "sv": "Viscerala bladet av pungsäckens serösa hinna",
+      "la": "Lamina visceralis"
+    },
+    {
+      "group": "",
+      "subGroup": "Scrotum",
+      "sv": "Hålrummet mellan pungens vägg och testikeln",
+      "la": "Cavum vaginale"
+    },
+    {
+      "group": "",
+      "subGroup": "Scrotum",
+      "sv": "Sädessträngskanal",
+      "la": "Canalis vaginalis"
+    },
+    { "group": "", "subGroup": "", "sv": "Testikel", "la": "Testis" },
+    {
+      "group": "",
+      "subGroup": "Testis",
+      "sv": "Stram vitaktig bindvävskapsel som omger testikeln (under tunica vaginalis visceralis)",
+      "la": "Tunica albuginea"
+    },
+    {
+      "group": "",
+      "subGroup": "Testis",
+      "sv": "Testikelns krös",
+      "la": "Mesorchium"
+    },
+    { "group": "", "subGroup": "", "sv": "Bitestikel", "la": "Epididymis" },
+    {
+      "group": "",
+      "subGroup": "Epididymis",
+      "sv": "Bitestikelhuvud",
+      "la": "Caput epididymidis"
+    },
+    {
+      "group": "",
+      "subGroup": "Epididymis",
+      "sv": "Bitestikelkropp",
+      "la": "Corpus epididymidis"
+    },
+    {
+      "group": "",
+      "subGroup": "Epididymis",
+      "sv": "Bitestikelsvans",
+      "la": "Cauda epididymidis"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Sädessträng",
+      "la": "Funiculus spermaticus"
+    },
+    {
+      "group": "",
+      "subGroup": "Funiculus spermaticus",
+      "sv": "Sädesledare",
+      "la": "Ductus deferens"
+    },
+    {
+      "group": "",
+      "subGroup": "Funiculus spermaticus",
+      "sv": "Testikelns nätverk av V. testicularis",
+      "la": "Plexus pampiniformis"
+    },
+    {
+      "group": "",
+      "subGroup": "Funiculus spermaticus",
+      "sv": "Muskel i anslutning till funikeln, lateralt om tunica vag. lam. parietalis",
+      "la": "Musculus cremaster"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Ljumskkanal/inguinalkanal = öppning i bukmuskulaturen i form av en smal spalt",
+      "la": "Canalis inguinalis"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Accessoriska könskörtlar",
+      "la": "Glandulae genitales accessoriae"
+    },
+    {
+      "group": "",
+      "subGroup": "Glandulae genitales accessoriae",
+      "sv": "Blåshalskörtel",
+      "la": "Prostata"
+    },
+    {
+      "group": "",
+      "subGroup": "Glandulae genitales accessoriae",
+      "sv": "Förtjockning av väggen i de båda sädesledarnas sista del",
+      "la": "Ampullae ductus deferentis"
+    },
+    { "group": "", "subGroup": "", "sv": "Förhud", "la": "Preputium" },
+    { "group": "", "subGroup": "", "sv": "Penis", "la": "Penis" },
+    {
+      "group": "",
+      "subGroup": "Penis",
+      "sv": "Svällkropp som delvis omger c. spongiosum dorsalt",
+      "la": "Corpus cavernosum penis"
+    },
+    {
+      "group": "",
+      "subGroup": "Penis",
+      "sv": "Penisben, främre del av c. cavernosum som förbenas",
+      "la": "Os penis"
+    },
+    {
+      "group": "",
+      "subGroup": "Penis",
+      "sv": "Svällkropp som omger urinröret",
+      "la": "Corpus spongiosum penis"
+    },
+    { "group": "", "subGroup": "Penis", "sv": "Ollon", "la": "Glans penis" },
+    {
+      "group": "",
+      "subGroup": "Penis",
+      "sv": "Svällkropp – bakre del av glans, kommunicerar med c. spongiosum",
+      "la": "Bulbus glandis"
+    },
+    {
+      "group": "",
+      "subGroup": "Penis",
+      "sv": "Svällkropp – främre del av glans, kommunicerar med c. spongiosum",
+      "la": "Pars longa glandis"
+    }
+  ]
+}

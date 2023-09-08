@@ -11,13 +11,13 @@
       "group": "Övre luftvägarna",
       "subGroup": "Nasus",
       "la": "Planum nasale",
-      "sv": "”Nosspegel”"
+      "sv": "Nosspegel"
     },
     {
       "group": "Övre luftvägarna",
       "subGroup": "Nasus",
       "la": "Philtrum",
-      "sv": "“Nosfåra”"
+      "sv": "Nosfåra"
     },
     {
       "group": "Övre luftvägarna",
@@ -59,7 +59,7 @@
       "group": "Övre luftvägarna",
       "subGroup": "",
       "la": "Recessus maxillaris",
-      "sv": "”Käkhåla”"
+      "sv": "Käkhåla"
     },
     {
       "group": "Övre luftvägarna",
@@ -89,7 +89,7 @@
       "group": "Nedre luftvägarna",
       "subGroup": "Larynx",
       "la": "Cartilago epiglottica",
-      "sv": "Slutbrosk, Epiglottis"
+      "sv": "Slutbrosk"
     },
     {
       "group": "Nedre luftvägarna",
@@ -125,7 +125,7 @@
       "group": "Nedre luftvägarna",
       "subGroup": "Trachea",
       "la": "Cartilagines tracheales",
-      "sv": "Luftstrupens “broskringar”"
+      "sv": "Luftstrupens broskringar"
     },
     {
       "group": "Nedre luftvägarna",
@@ -143,7 +143,7 @@
       "group": "Nedre luftvägarna",
       "subGroup": "Cavum thoracis",
       "la": "Mediastinum",
-      "sv": "”Vägg” som delar brösthålan i två halvor"
+      "sv": "Vägg som delar brösthålan i två halvor"
     },
     {
       "group": "Nedre luftvägarna",
