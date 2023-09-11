@@ -18,7 +18,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   checkEqual,
   checkIfWordIsSaved,
@@ -78,9 +78,12 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
     ? wordSet[subSet[currentIndex]]
     : wordSet[currentIndex];
 
-  const actualIndex = shuffle
-    ? domain.words.findIndex(({ sv }) => sv === currentWord.sv)
+  const actualIndex = subSet
+    ? getActualIndex(domain, wordSet[subSet[currentIndex]])
+    : shuffle
+    ? getActualIndex(domain, wordSet[currentIndex])
     : currentIndex;
+
   const toWord = currentWord[mode.to].trim();
   const partlyCorrect = checkPartOfWord(textValue, toWord);
   const correctAnswer = checkEqual(textValue, toWord);
@@ -124,20 +127,27 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
     }
   };
 
-  const onSaveWord = () => {
-    saveWordToLocalStorage(
-      domain.domain,
-      subSet ? subSet[currentIndex] : actualIndex
-    );
+  const onSaveWord = useCallback(() => {
+    saveWordToLocalStorage(domain.domain, actualIndex);
     setSavedWord(true);
-  };
-  const onRemoveSavedWord = () => {
-    removeWordFromLocalStorage(
-      domain.domain,
-      subSet ? subSet[currentIndex] : actualIndex
-    );
+  }, [actualIndex, domain.domain]);
+
+  const onRemoveSavedWord = useCallback(() => {
+    removeWordFromLocalStorage(domain.domain, actualIndex);
     setSavedWord(false);
-  };
+  }, [domain.domain, actualIndex]);
+
+  useEffect(() => {
+    const onSave = (e) => {
+      if (e.metaKey && e.code === "KeyS") {
+        e.preventDefault();
+        if (savedWord) onRemoveSavedWord();
+        else onSaveWord();
+      }
+    };
+    window.addEventListener("keydown", onSave);
+    return () => window.removeEventListener("keydown", onSave);
+  }, [savedWord, onRemoveSavedWord, onSaveWord]);
 
   const validJumpTo = jumpTo > 0 && jumpTo <= wordSet.length;
 
