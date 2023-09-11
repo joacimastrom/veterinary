@@ -1,0 +1,13 @@
+{
+  "domain": "Test",
+  "words": [
+    { "group": "", "subGroup": "", "sv": "Test0", "la": "Test0" },
+    { "group": "", "subGroup": "", "sv": "Test1", "la": "Test1" },
+    { "group": "", "subGroup": "", "sv": "Test2", "la": "Test2" },
+    { "group": "", "subGroup": "", "sv": "Test3", "la": "Test3" },
+    { "group": "", "subGroup": "", "sv": "Test4", "la": "Test4" },
+    { "group": "", "subGroup": "", "sv": "Test5", "la": "Test5" },
+    { "group": "", "subGroup": "", "sv": "Test6", "la": "Test6" },
+    { "group": "", "subGroup": "", "sv": "Test7", "la": "Test7" }
+  ]
+}

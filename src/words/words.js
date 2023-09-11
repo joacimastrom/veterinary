@@ -4,7 +4,8 @@ import feminin from "./feminin.json";
 import masculina from "./masculina.json";
 import resporatirious from "./respiratorius.json";
 import skeleton from "./skeleton";
-import urinaria from "./urinaria.json";
+/* import test from "./test.json";
+ */ import urinaria from "./urinaria.json";
 
 export const domains = [
   resporatirious,
@@ -14,4 +15,6 @@ export const domains = [
   feminin,
   masculina,
   skeleton,
+  /*   test,
+   */
 ];

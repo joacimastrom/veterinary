@@ -23,6 +23,7 @@ import {
   checkEqual,
   checkIfWordIsSaved,
   checkPartOfWord,
+  getActualIndex,
   getAlternatives,
   getHint,
   getHintLength,
@@ -65,19 +66,32 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
   const [hintLength, setHintLength] = useState(1);
   const [jumpTo, setJumpTo] = useState("");
   const [savedWord, setSavedWord] = useState(
-    checkIfWordIsSaved(domain.domain, subSet ? subSet[0] : 0)
+    checkIfWordIsSaved(
+      domain.domain,
+      subSet ? subSet[0] : shuffle ? getActualIndex(domain, wordSet[0]) : 0
+    )
   );
+
   const inputRef = useRef();
 
   const { group, subGroup, ...currentWord } = subSet
     ? wordSet[subSet[currentIndex]]
     : wordSet[currentIndex];
 
+  const actualIndex = shuffle
+    ? domain.words.findIndex(({ sv }) => sv === currentWord.sv)
+    : currentIndex;
   const toWord = currentWord[mode.to].trim();
   const partlyCorrect = checkPartOfWord(textValue, toWord);
   const correctAnswer = checkEqual(textValue, toWord);
 
   const changeQuestion = (nextIndex) => {
+    const actualIndex = subSet
+      ? getActualIndex(domain, wordSet[subSet[nextIndex]])
+      : shuffle
+      ? getActualIndex(domain, wordSet[nextIndex])
+      : nextIndex;
+
     setShowAlternatives(false);
     setMode(getMode(modeSlider));
     setTextValue("");
@@ -88,9 +102,7 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
         ? getAlternatives(subSet[nextIndex], wordSet)
         : getAlternatives(nextIndex, wordSet)
     );
-    setSavedWord(
-      checkIfWordIsSaved(domain.domain, subSet ? subSet[nextIndex] : nextIndex)
-    );
+    setSavedWord(checkIfWordIsSaved(domain.domain, actualIndex));
     setCurrentIndex(nextIndex);
     setHintLength(1);
     inputRef.current.focus();
@@ -115,14 +127,14 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
   const onSaveWord = () => {
     saveWordToLocalStorage(
       domain.domain,
-      subSet ? subSet[currentIndex] : currentIndex
+      subSet ? subSet[currentIndex] : actualIndex
     );
     setSavedWord(true);
   };
   const onRemoveSavedWord = () => {
     removeWordFromLocalStorage(
       domain.domain,
-      subSet ? subSet[currentIndex] : currentIndex
+      subSet ? subSet[currentIndex] : actualIndex
     );
     setSavedWord(false);
   };

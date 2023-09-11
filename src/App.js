@@ -28,7 +28,7 @@ function App() {
         />
       ) : (
         <Quiz
-          shuffle={shuffle}
+          shuffle={shuffle && !wordSet}
           onBack={onBack}
           domain={selectedDomain}
           subSet={wordSet}

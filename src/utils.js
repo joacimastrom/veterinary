@@ -69,3 +69,6 @@ export const getSavedWordsOrFalse = (domain) => {
   const domainWords = savedWords[domain];
   return domainWords?.length ? domainWords : false;
 };
+
+export const getActualIndex = (domain, word) =>
+  domain.words.findIndex(({ sv }) => sv === word.sv);
