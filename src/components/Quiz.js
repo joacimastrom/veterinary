@@ -210,10 +210,11 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
             </Grow>
           )}
           <TextField
+            autoFocus
             onKeyDown={(e) =>
               e.key === "Enter" &&
               correctAnswer &&
-              changeQuestion(currentIndex + 1)
+              (onLastQuestion ? onBack() : changeQuestion(currentIndex + 1))
             }
             inputRef={inputRef}
             value={textValue}
