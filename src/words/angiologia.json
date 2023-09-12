@@ -193,7 +193,7 @@
     {
       "group": "Vas",
       "subgroup": "Arteria",
-      "sv": "Arteriol = Liten artär/plural",
+      "sv": "Liten artär/plural",
       "la": "Arteriola/Arteriolae"
     },
     {
@@ -205,8 +205,14 @@
     {
       "group": "Vas",
       "subgroup": "Arteria",
-      "sv": "Vänster och höger lungartär",
-      "la": "A. pulmonalis sinistra et dextra"
+      "sv": "Vänster lungartär",
+      "la": "Arteria pulmonalis sinistra"
+    },
+    {
+      "group": "Vas",
+      "subgroup": "Arteria",
+      "sv": "Höger lungartär",
+      "la": "Arteria pulmonalis dextra"
     },
     {
       "group": "Vas",
@@ -218,7 +224,7 @@
       "group": "Vas",
       "subgroup": "Arteria",
       "sv": "Kransartärer",
-      "la": "Aa. coronaria sinistra et dextra"
+      "la": "Arteriae coronaria sinistra et dextra"
     },
     {
       "group": "Vas",
@@ -236,13 +242,13 @@
       "group": "Vas",
       "subgroup": "Arteria",
       "sv": "Höger och vänster sidas halspulsåder",
-      "la": "Aa. carotis communis dx et sin"
+      "la": "Arteriae carotis communis dx et sin"
     },
     {
       "group": "Vas",
       "subgroup": "Arteria",
       "sv": "”Nyckelbensartär” (vä och hö)",
-      "la": "Aa. subclavia sin et dx"
+      "la": "Arteriae subclavia sin et dx"
     },
     {
       "group": "Vas",
@@ -260,31 +266,31 @@
       "group": "Vas",
       "subgroup": "Arteria",
       "sv": "Artär i främre delen av buken",
-      "la": "A. celiaca"
+      "la": "Arteria celiaca"
     },
     {
       "group": "Vas",
       "subgroup": "Arteria",
       "sv": "Leverartär",
-      "la": "A. hepatica"
+      "la": "Arteria hepatica"
     },
     {
       "group": "Vas",
       "subgroup": "Arteria",
       "sv": "Främre och bakre krösartären",
-      "la": "Aa. mesenterica cranialis et caudalis"
+      "la": "Arteriae mesenterica cranialis et caudalis"
     },
     {
       "group": "Vas",
       "subgroup": "Arteria",
       "sv": "Njurartären",
-      "la": "Aa. renalis sin et dx"
+      "la": "Arteriae renalis sin et dx"
     },
     {
       "group": "Vas",
       "subgroup": "Arteria",
       "sv": "Könskörtelartärer (hanlig/honlig, vä/hö)",
-      "la": "Aa. testicularis/ovarica sin et dx"
+      "la": "Arteriae testicularis/ovarica sin et dx"
     },
     {
       "group": "Vas",
@@ -299,67 +305,67 @@
       "group": "Vas",
       "subgroup": "Vena",
       "sv": "Kransvener",
-      "la": "Vv. cordis"
+      "la": "Venae cordis"
     },
     {
       "group": "Vas",
       "subgroup": "Vena",
       "sv": "Främre och bakre hålvenen",
-      "la": "Vv. cava cranialis et caudalis"
+      "la": "Venae cava cranialis et caudalis"
     },
     {
       "group": "Vas",
       "subgroup": "Vena",
       "sv": "“Den opariga venen” (höger hos hund)",
-      "la": "V. azygos dextra"
+      "la": "Vena azygos dextra"
     },
     {
       "group": "Vas",
       "subgroup": "Vena",
       "sv": "Lungvener",
-      "la": "Vv. pulmonales"
+      "la": "Venae pulmonales"
     },
     {
       "group": "Vas",
       "subgroup": "Vena",
       "sv": "Halsvenerna/jugularvenerna (vä/hö)",
-      "la": "Vv. jugularis externa sin et dx"
+      "la": "Venae jugularis externa sin et dx"
     },
     {
       "group": "Vas",
       "subgroup": "Vena",
       "sv": "Främre och bakre krösvenen",
-      "la": "Vv. mesenterica cranialis et caudalis"
+      "la": "Venae mesenterica cranialis et caudalis"
     },
     {
       "group": "Vas",
       "subgroup": "Vena",
       "sv": "Njurven (vä och hö)",
-      "la": "Vv. renalis sin et dx"
+      "la": "Venae renalis sin et dx"
     },
     {
       "group": "Vas",
       "subgroup": "Vena",
       "sv": "Könskörtelven (hanlig/honlig, vä/hö)",
-      "la": "Vv. testicularis/ovarica sin et dx"
+      "la": "Venae testicularis/ovarica sin et dx"
     },
     {
       "group": "Leverkärl",
       "subgroup": "",
       "sv": "Leverartär",
-      "la": "A. hepatica"
+      "la": "Arteria hepatica"
     },
     {
       "group": "Leverkärl",
       "subgroup": "",
       "sv": "Levervener",
-      "la": "Vv. hepaticae"
+      "la": "Venae hepaticae"
     },
     {
       "group": "Leverkärl",
       "subgroup": "",
       "sv": "Portaven",
-      "la": "V. portae"
+      "la": "Vena portae"
     },
     {
       "group": "Systema lymphaticum",
@@ -369,7 +375,7 @@
     },
     {
       "group": "Systema lymphaticum",
-      "subgroup": "Lymphonodus",
+      "subgroup": "",
       "sv": "Lymfknuta/Lymfknutor",
       "la": "Lymphonodus"
     },
@@ -377,37 +383,37 @@
       "group": "Systema lymphaticum",
       "subgroup": "Lymphonodus",
       "sv": "Käklymfknutor",
-      "la": "Lnn. mandibulares"
+      "la": "Lymphonodi mandibulares"
     },
     {
       "group": "Systema lymphaticum",
       "subgroup": "Lymphonodus",
       "sv": "Boglymfknutor",
-      "la": "Lnn. cervicales superficiales"
+      "la": "Lymphonodi cervicales superficiales"
     },
     {
       "group": "Systema lymphaticum",
       "subgroup": "Lymphonodus",
       "sv": "“Knälymfknutor”",
-      "la": "Lnn. poplitei"
+      "la": "Lymphonodi poplitei"
     },
     {
       "group": "Systema lymphaticum",
       "subgroup": "Lymphonodus",
       "sv": "Mediastinallymfknutor",
-      "la": "Lnn. mediastinales"
+      "la": "Lymphonodi mediastinales"
     },
     {
       "group": "Systema lymphaticum",
       "subgroup": "Lymphonodus",
       "sv": "Lymfknutor vid luftstrupens förgrening",
-      "la": "Lnn. tracheobronchales"
+      "la": "Lymphonodi tracheobronchales"
     },
     {
       "group": "Systema lymphaticum",
       "subgroup": "Lymphonodus",
       "sv": "Lymfknutor i jejunums krös",
-      "la": "Lnn. jejunales"
+      "la": "Lymphonodi jejunales"
     },
     {
       "group": "Systema lymphaticum",
