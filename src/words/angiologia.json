@@ -36,13 +36,13 @@
       "group": "Cor",
       "subgroup": "",
       "sv": "Parietalt blad av den serösa hinnan. Fäster på insidan av pericardium fibrosum",
-      "la": "Lamina parietalis"
+      "la": "Pericardium serosum lamina parietalis"
     },
     {
       "group": "Cor",
       "subgroup": "",
       "sv": "Visceralt blad av den serösa hinnan. Fäster myocardiet och utgör hjärtats ytskikt (det som kallas epicardium)",
-      "la": "Lamina visceralis (epicardium)"
+      "la": "Pericardium serosum lamina visceralis (epicardium)"
     },
     {
       "group": "Cor",
@@ -71,19 +71,19 @@
     {
       "group": "Cor",
       "subgroup": "",
-      "sv": "Sträng mellan septum interventriculare kammarväggen, ofta kraftig på höger sida. Del av retledningssystemet.",
+      "sv": "Sträng mellan septum interventriculare och kammarväggen, ofta kraftig på höger sida",
       "la": "Trabecula septomarginalis"
     },
     {
       "group": "Cor",
       "subgroup": "",
-      "sv": "Sinusknutan, specialiserade hjärtmuskelceller, del av retledningssytemet",
+      "sv": "Sinusknutan, specialiserade hjärtmuskelceller",
       "la": "Nodus sinuatrialis"
     },
     {
       "group": "Cor",
       "subgroup": "",
-      "sv": "AV-knutan, specialiserade hjärtmuskelceller, del av retledningssytemet",
+      "sv": "AV-knutan, specialiserade hjärtmuskelceller",
       "la": "Nodus atrioventricularis"
     },
     {

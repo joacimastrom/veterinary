@@ -1,0 +1,124 @@
+{
+  "domain": "Systema nervosum",
+  "words": [
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Centrala nervsystemet (CNS)",
+      "sv": "Hjärna och ryggmärg"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Perifera nervsystemet (PNS)",
+      "sv": "Kranialnerver och spinalnerver + perifera ganglier"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Somatiska nervsystemet",
+      "sv": "Sensoriska och motoriska"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Autonoma nervsystemet",
+      "sv": "Sympatiska och parasympatiska"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Substantia alba",
+      "sv": "Vit substans"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Substantia grisea",
+      "sv": "Grå substans"
+    },
+    { "group": "", "subGroup": "", "la": "Cerebrum", "sv": "Storhjärnan" },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Lobus frontalis",
+      "sv": "Frontallob/pannlob"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Cortex cerebri",
+      "sv": "Storhjärnsbark"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Gyri cerebri",
+      "sv": "Hjärnvävnadsupphöjningar i storhjärnan"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Sulci cerebri",
+      "sv": "Fåror mellan vävnadsupphöjningar i storhjärnan"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Hemispherium",
+      "sv": "Hemisfärererna, storhjärnshalvorna"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Corpus callosum",
+      "sv": "Hjärnbalken"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Chiasma opticum",
+      "sv": "Synnervskorsningen"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Ventriculus lateralis sin et dx",
+      "sv": "Sidoventriklarna/lateralventriklarna"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Diencephalon",
+      "sv": "Mellanhjärnan"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Glandula pituitaria",
+      "sv": "Hypofysen"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Glandula pinealis",
+      "sv": "Epifys eller tallkottkörtel"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Truncus encephali",
+      "sv": "Hjärnstammen"
+    },
+    { "group": "", "subGroup": "", "la": "Mesencephalon", "sv": "Mitthjärnan" },
+    { "group": "", "subGroup": "", "la": "Pons", "sv": "Bryggan" },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Medulla oblongata",
+      "sv": "Förlängda märgen"
+    },
+    { "group": "", "subGroup": "", "la": "Cerebellum", "sv": "Lillhjärnan" },
+    { "group": "", "subGroup": "", "la": "Medulla spinalis", "sv": "Ryggmärg" }
+  ]
+}

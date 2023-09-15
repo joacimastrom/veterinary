@@ -1,0 +1,89 @@
+{
+  "domain": "Systema endocrina",
+  "words": [
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Glandula pituitaria",
+      "sv": "Hypofys"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Adenohypophysis",
+      "sv": "hypofysens framlob"
+    },
+    {
+      "group": "Glandula pituitaria",
+      "subGroup": "",
+      "la": "Neurohypophysis",
+      "sv": "hypofysens baklob"
+    },
+    {
+      "group": "Glandula pituitaria",
+      "subGroup": "",
+      "la": "Glandula pinealis",
+      "sv": "Epifys eller tallkottkörtel"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Glandula thyroidea",
+      "sv": "Sköldkörtel"
+    },
+    {
+      "group": "Glandula thyroidea",
+      "subGroup": "",
+      "la": "Lobus dx et sin",
+      "sv": "Höger respektive vänster del av sköldkörteln"
+    },
+    {
+      "group": "Glandula thyroidea",
+      "subGroup": "",
+      "la": "Capsula fibrosa",
+      "sv": "Bindvävskapsel runt sköldkörteln"
+    },
+    {
+      "group": "Glandula thyroidea",
+      "subGroup": "",
+      "la": "Isthmus",
+      "sv": "Tunn sträng som förbinder sköldkörtelns lober"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Glandulae parathyroideae",
+      "sv": "Bisköldkörtlar"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Glandulae suprarenales",
+      "sv": "Binjurar"
+    },
+    {
+      "group": "Glandulae suprarenales",
+      "subGroup": "",
+      "la": "Cortex",
+      "sv": "Binjurebark"
+    },
+    {
+      "group": "Glandulae suprarenales",
+      "subGroup": "",
+      "la": "Medulla",
+      "sv": "Binjuremärg"
+    },
+    {
+      "group": "Glandulae suprarenales",
+      "subGroup": "",
+      "la": "Capsula fibrosa",
+      "sv": "Bindvävskapsel runt binjuren"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Insulae pancreaticae",
+      "sv": "Langerhans cellöar. Mikroskopiska ansamlingar av endokrina celler som finns utspridda i bukspottkörteln"
+    }
+  ]
+}

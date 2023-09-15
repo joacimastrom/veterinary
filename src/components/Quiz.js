@@ -199,7 +199,7 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
               </Typography>
             </Grow>
           )}
-          <Typography variant="h5" component="div">
+          <Typography variant="h5" component="div" mt={!group && "21px"}>
             {currentWord[mode.from]}
           </Typography>
           {subGroup && (

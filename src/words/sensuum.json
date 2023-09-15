@@ -1,0 +1,119 @@
+{
+  "domain": "Organa sensuum",
+  "words": [
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Organum visus – Oculus",
+      "sv": "Synorgan – Ögon"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "",
+      "la": "Palpebrae",
+      "sv": "Ögonlock"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "",
+      "la": "Palpebra superior",
+      "sv": "Övre ögonlock"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "",
+      "la": "Palpebra inferior",
+      "sv": "Undre ögonlock"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "",
+      "la": "Palpebra tertia",
+      "sv": "Tredje ögonlocket"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "",
+      "la": "Conjunctiva",
+      "sv": "Konjunktiva, bindhinna"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "",
+      "la": "Bulbus oculi",
+      "sv": "Ögonglob"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "Bulbus oculi",
+      "la": "Cornea",
+      "sv": "Hornhinna"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "Bulbus oculi",
+      "la": "Iris",
+      "sv": "Regnbågshinna"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "Bulbus oculi",
+      "la": "Pupilla",
+      "sv": "Pupill"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "",
+      "la": "Apparatus lacrimalis",
+      "sv": "Tårvätskeapparaten"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "Apparatus lacrimalis",
+      "la": "Punctum lacrimale",
+      "sv": "Mynning i mediala ögonvinkeln"
+    },
+    {
+      "group": "Organum visus",
+      "subGroup": "Apparatus lacrimalis",
+      "la": "Ostium nasolacrimalis",
+      "sv": "Mynning i näshålan"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Organum vestibulocochleare – Auris",
+      "sv": "Hörsel- och balansorganet – Öron"
+    },
+    {
+      "group": "Organum vestibulocochleare",
+      "subGroup": "",
+      "la": "Auris externa",
+      "sv": "Ytteröra"
+    },
+    {
+      "group": "Organum vestibulocochleare",
+      "subGroup": "",
+      "la": "Auricula",
+      "sv": "Öronlapp – öronmussla"
+    },
+    {
+      "group": "Organum vestibulocochleare",
+      "subGroup": "",
+      "la": "Meatus acusticus externus",
+      "sv": "Yttre hörselgång"
+    },
+    {
+      "group": "Organum vestibulocochleare",
+      "subGroup": "",
+      "la": "Organum gustus",
+      "sv": "Smaksinnet"
+    },
+    {
+      "group": "Organum vestibulocochleare",
+      "subGroup": "Organum gustus",
+      "la": "Papillae linguales",
+      "sv": "Tungpapiller, bär smaklökar eller har mekanisk funktion"
+    }
+  ]
+}
