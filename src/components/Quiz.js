@@ -95,6 +95,12 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
       ? getActualIndex(domain, wordSet[nextIndex])
       : nextIndex;
 
+    if (subSet && actualIndex === -1) {
+      removeWordFromLocalStorage(domain.domain, subSet[nextIndex]);
+      changeQuestion(nextIndex + 1);
+      return;
+    }
+
     setShowAlternatives(false);
     setMode(getMode(modeSlider));
     setTextValue("");
@@ -113,12 +119,12 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
 
   const onLastQuestion = currentIndex === (subSet || wordSet).length - 1;
 
-  const getNextLetter = () => {
+  const getNextLetter = useCallback(() => {
     setTextValue(getHint(toWord, hintLength));
     if (hintLength !== toWord.length) {
       setHintLength((curr) => getHintLength(curr, toWord));
     }
-  };
+  }, [hintLength, toWord]);
 
   const onChange = ({ target: { value } }) => {
     setTextValue(value);
@@ -145,9 +151,21 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
         else onSaveWord();
       }
     };
+
     window.addEventListener("keydown", onSave);
     return () => window.removeEventListener("keydown", onSave);
-  }, [savedWord, onRemoveSavedWord, onSaveWord]);
+  }, [savedWord, onRemoveSavedWord, onSaveWord, getNextLetter]);
+
+  useEffect(() => {
+    const onNextLetter = (e) => {
+      if (e.metaKey && e.code === "KeyD") {
+        e.preventDefault();
+        getNextLetter();
+      }
+    };
+    window.addEventListener("keydown", onNextLetter);
+    return () => window.removeEventListener("keydown", onNextLetter);
+  }, [getNextLetter]);
 
   const validJumpTo = jumpTo > 0 && jumpTo <= wordSet.length;
 

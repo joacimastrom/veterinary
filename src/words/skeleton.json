@@ -191,7 +191,7 @@
       "group": "Skeleton appendiculare",
       "subGroup": "",
       "la": "Ossa digitorum manus",
-      "sv": "Falangben"
+      "sv": "Falangben (Främre)"
     },
     {
       "group": "Skeleton appendiculare",
@@ -317,7 +317,7 @@
       "group": "Skeleton appendiculare",
       "subGroup": "",
       "la": "Ossa digitorum pedis",
-      "sv": "Falangben"
+      "sv": "Falangben (Bakre)"
     }
   ]
 }

@@ -89,7 +89,7 @@
     {
       "group": "Cor",
       "subgroup": "",
-      "sv": "Tunt, glatt vävnadskikt som linjerar hjärtats hålrum. Kontinuerligt med kärlens endotel.",
+      "sv": "Tunt, glatt vävnadskikt som linjerar hjärtats hålrum",
       "la": "Endocardium"
     },
     {
@@ -155,32 +155,20 @@
     {
       "group": "Cor",
       "subgroup": "Ventriculus cordis",
-      "sv": "Segelklaffar mellan höger förmak och kammare = Trikuspidalisklaffar",
-      "la": "Valva atrioventricularis dextra"
+      "sv": "Segelklaffar mellan höger förmak och kammare",
+      "la": "Valva atrioventricularis dextra/Tricuspidalis"
     },
     {
       "group": "Cor",
       "subgroup": "Ventriculus cordis",
-      "sv": "Trikuspidalisklaffar",
-      "la": "Valva tricuspidalis"
-    },
-    {
-      "group": "Cor",
-      "subgroup": "Ventriculus cordis",
-      "sv": "Lungartärens fickklaffar (semilunarklaffar)",
+      "sv": "Lungartärens fickklaffar (Semilunarklaffar)",
       "la": "Valva trunci pulmonalis"
     },
     {
       "group": "Cor",
       "subgroup": "Ventriculus cordis",
       "sv": "Segelklaffar mellan vänster förmak och kammare",
-      "la": "Valva atrioventricularis sinistra"
-    },
-    {
-      "group": "Cor",
-      "subgroup": "Ventriculus cordis",
-      "sv": "Mitralisklaffar",
-      "la": "Valva bicuspidalis/Valva mitralis"
+      "la": "Valva atrioventricularis sinistra/bicuspidalis/mitralis"
     },
     {
       "group": "Cor",
