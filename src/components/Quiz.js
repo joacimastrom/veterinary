@@ -48,7 +48,7 @@ export const translationOptions = [
   },
 ];
 
-export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
+export const Quiz = ({ onBack, domain, shuffle, subSet }) => {
   const [showGroup, setShowGroup] = useState(true);
   const [showSubGroup, setShowSubGrup] = useState(true);
   const [wordSet /* , setWordSet */] = useState(
@@ -171,18 +171,6 @@ export const Quiz = ({ domain, onBack, shuffle, subSet }) => {
 
   return (
     <>
-      <Button
-        sx={{
-          position: "absolute",
-          top: "1rem",
-          left: "1rem",
-          color: "white",
-          alignSelf: "flex-start",
-        }}
-        onClick={onBack}
-      >
-        Tillbaka
-      </Button>
       <Typography variant="h4" marginBottom={2} component="div">
         {domain.domain}
       </Typography>

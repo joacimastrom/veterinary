@@ -1,0 +1,33 @@
+{
+  "domain": "Terminologi",
+  "id": "terminologi",
+  "words": [
+    { "group": "", "subGroup": "", "la": "Ruminantia", "sv": "Idisslare" },
+    { "group": "", "subGroup": "", "la": "Bos taurus", "sv": "Nöt" },
+    { "group": "", "subGroup": "", "la": "Ovis aries", "sv": "Får" },
+    { "group": "", "subGroup": "", "la": "Capra hircus", "sv": "Get" },
+    { "group": "", "subGroup": "", "la": "Equus caballus", "sv": "Häst" },
+    { "group": "", "subGroup": "", "la": "Carnivora", "sv": "Karnivor" },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Canis familiaris",
+      "sv": "Hund"
+    },
+    { "group": "", "subGroup": "", "la": "Felis catus", "sv": "Katt" },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Sus scrofa domestica",
+      "sv": "Gris"
+    },
+    { "group": "", "subGroup": "", "la": "Brachycephal", "sv": "Kortskallad" },
+    {
+      "group": "",
+      "subGroup": "",
+      "la": "Normocephal",
+      "sv": "Normal skallform"
+    },
+    { "group": "", "subGroup": "", "la": "Dolichocephal", "sv": "Långskallad" }
+  ]
+}

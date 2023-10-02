@@ -1,0 +1,660 @@
+{
+  "domain": "Respiration",
+  "id": "respiration",
+  "words": [
+    { "group": "", "subGroup": "", "sv": "Yttre nos", "la": "Nasus externus" },
+    {
+      "group": "Nasus externus",
+      "subGroup": "",
+      "sv": "Nosspegel (Car, ov, cap)",
+      "la": "Planum nasale"
+    },
+    {
+      "group": "Nasus externus",
+      "subGroup": "",
+      "sv": "Nosfåra",
+      "la": "Philtrum"
+    },
+    {
+      "group": "Nasus externus",
+      "subGroup": "",
+      "sv": "Tryne",
+      "la": "Rostrum"
+    },
+    {
+      "group": "Nasus externus",
+      "subGroup": "",
+      "sv": "Trynplattan, modifierad hud kring näsborrarna (su)",
+      "la": "Planum rostrale"
+    },
+    {
+      "group": "Nasus externus",
+      "subGroup": "",
+      "sv": "Hårlöst parti på överläpp och mellan näsborrar (bo)",
+      "la": "Planum nasolabiale"
+    },
+    {
+      "group": "Nasus externus",
+      "subGroup": "",
+      "sv": "Näsvinge",
+      "la": "Alae nasi"
+    },
+    {
+      "group": "Nasus externus",
+      "subGroup": "",
+      "sv": "Yttre nosens brosk",
+      "la": "Cartilagines nasi externi"
+    },
+    { "group": "", "subGroup": "", "sv": "Näshåla", "la": "Cavum nasi" },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Näsborrarna",
+      "la": "Nares"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Blindsäck dorsalt i näsöppningen, häst (eq)",
+      "la": "Diverticulum nasi"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Slemhinneveck från dorsala conchan till nares",
+      "la": "Plica recta"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Näshålans främre del",
+      "la": "Vestibulum nasi"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Nedre öppningen på ductus nasolacrimalis (tårkanalen)",
+      "la": "Ostium nasolacrimale"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Nässkiljevägg",
+      "la": "Septum nasi"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "”Accessoriskt luktorgan” som är belägen i en ”blindgång” i näshålans botten nära vomer",
+      "la": "Organum vomeronasale"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Förbindelse näshåla – munhåla. Hos häst är det endast en blindgång från näshålan",
+      "la": "Ductus incisivus"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Ductus vomeronasalis öppnar sig rostralt i ductus incisivus och slutar blint kaudalt",
+      "la": "Ductus vomeronasalis"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Näshålans bakre öppning, kaudoventralt mot svalget",
+      "la": "Choanae"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Hårda gommen",
+      "la": "Palatum durum"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Övre näsmusslan, från laterala väggen",
+      "la": "Concha nasalis dorsalis"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Mellersta näsmusslan, liten, framför silbenslabyrinten",
+      "la": "Concha nasalis media"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Nedre näsmusslan, från laterala väggen",
+      "la": "Concha nasalis ventralis"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "Kaudalt i näshålan, bildar silbenslabyrinten",
+      "la": "Conchae ethmoidales"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "”Gemensamma näsgången”, rummet mellan septum nasi och näsmusslorna",
+      "la": "Meatus nasi communis"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "“Övre näsgången”, rummet dorsalt om övre conchan",
+      "la": "Meatus nasi dorsalis"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "”Mellersta näsgången”, rummet mellan övre och nedre conchan",
+      "la": "Meatus nasi medius"
+    },
+    {
+      "group": "Cavum nasi",
+      "subGroup": "",
+      "sv": "”Nedre näsgången”, rummet ventralt om nedre conchan",
+      "la": "Meatus nasi ventralis"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Bihålorna",
+      "la": "Sinus paranasales"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Hålighet i bakre delen av dorsala conchan",
+      "la": "Sinus conchae dorsalis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Skiljevägg som utgör den rostrala begränsningen av sinus conchae dorsalis (eq)",
+      "la": "Septum conchae dorsalis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Hålighet i mellersta conchan",
+      "la": "Sinus conchae mediae"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Hålighet i bakre delen av ventrala conchan",
+      "la": "Sinus conchae ventralis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Skiljevägg som utgör den rostrala begränsningen av sinus conchae ventralis (eq)",
+      "la": "Septum conchae ventralis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Pannhåla, en enkel avdelning på var sida (eq, fe), stor djurartsvariation i övrigt avseende hur många avdelningar",
+      "la": "Sinus frontalis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Pannhålans bakre del, kommunicerar med hornen hos nöt (su och bo)",
+      "la": "Sinus frontalis caudalis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Käkhålan (Ru, su)",
+      "la": "Sinus maxillaris"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Den främre ”lilla käkhålan” hos häst (eq)",
+      "la": "Sinus maxillaris rostralis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Den bakre ”stora käkhålan” hos häst (eq)",
+      "la": "Sinus maxillaris caudalis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Utbuktning av näshålan hos karnivor (Car)",
+      "la": "Recessus maxillaris"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Hålighet i tårbenet (su, Ru)",
+      "la": "Sinus lacrimalis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Gomhålan, i hårda gommen (Ru), i os palatinum (eq)",
+      "la": "Sinus palatinus"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Sinus conchae dorsalis och sinus frontalis, sammanhängande större sinus hos häst",
+      "la": "Sinus conchofrontalis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Sinus i kilbenet (bo, eq, su, fe)",
+      "la": "Sinus sphenoidalis"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Sinus spenoidalis och sinus palatinus, sammanhängande större sinus hos häst",
+      "la": "Sinus sphenopalatinus"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Öppning från näshåla till sinus maxillaris",
+      "la": "Apertura nasomaxillaris"
+    },
+    {
+      "group": "Sinus paranasales",
+      "subGroup": "",
+      "sv": "Öppning mellan sinus conchofrontalis och sinus maxillaris caudalis hos häst",
+      "la": "Apertura frontomaxillaris"
+    },
+    { "group": "", "subGroup": "", "sv": "Nässvalget", "la": "Nasopharynx" },
+    {
+      "group": "Nasopharynx",
+      "subGroup": "",
+      "sv": "Öppning till luftsäcken hos häst samt till mellanörat via tuba auditiva hos alla för kursen berörda djurarter",
+      "la": "Ostium pharyngeum tubae auditivae"
+    },
+    {
+      "group": "Nasopharynx",
+      "subGroup": "",
+      "sv": "Luftsäcken, parig. Avdelas i en medial och en lateral del av den stora tungbensgrenen (stylohyoideum). Luftsäckens mediala avdelning: n. hypoglossus, n. vagus, n. glossopharyngeus, a. carotis interna Luftsäckens laterala avdelning: a. carotis externa (eq)",
+      "la": "Diverticulum tubae auditivae"
+    },
+    { "group": "", "subGroup": "", "sv": "Struphuvud", "la": "Larynx" },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Struphuvudets broskdelar",
+      "la": "Cartilagines laryngis"
+    },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Slutbrosk (struplock)",
+      "la": "Cartilago epiglottica"
+    },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Sköldbrosk",
+      "la": "Cartilago thyroidea"
+    },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Ringbrosk",
+      "la": "Cartilago cricoidea"
+    },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Kannbrosk",
+      "la": "Cartilago arytenoidea"
+    },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Spetsbrosken, ”hornliknande” utskott, dorsalt på kannbrosket, saknas hos katt",
+      "la": "Processus corniculatus"
+    },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Lateralt utskott på kaudala kannbrosket, fäste för flera av larynx muskler",
+      "la": "Processus muscularis"
+    },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Ventral kant av kannbrosket, fäste för lig. vocalis",
+      "la": "Processus vocalis"
+    },
+    {
+      "group": "Larynx",
+      "subGroup": "",
+      "sv": "Ger stöd åt plica aryepiglottica (eq och ca). Kranial process på arybrosket (ca), kaudal process på epiglottis (eq).",
+      "la": "Processus cuneiformis¨"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Larynx muskler",
+      "la": "Musculi laryngis"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "Fäster lat. på kaudala thyroidea och ventrala cricoidea. Kontraktion --> dorsala cricoidea förs kaudalt --> plica vocalis sträcks",
+      "la": "M. cricothyroideus"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "Från dorsala cricoidea till proc. muscularis på arytenoidea. Kontraktion --> vidgar rima glottidis",
+      "la": "M. cricoarytenoideus dorsalis"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "Från kranioventrala cricoidea till proc. muscularis på arytenoidea. Kontraktion --> drar samman rima glottidis",
+      "la": "M. cricoarytenoideus lateralis"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "Från proc. musc. på arybrosket till dorsala mittplanet och urspr. av den kontralat. muskeln. Kontr. --> stänger rima glottidis",
+      "la": "M. arytenoideus transversus"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "M. thyroarytenoideus är uppdelad i m. vocalis och m. ventricularis hos hund och häst",
+      "la": "M. thyroarytenoideus"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "Från ”golvet” av thyroidea till proc. vocalis och laterala arytenoidea. Kontraktion --> justerar tensionen i plica vocalis (eq, ca)",
+      "la": "M. vocalis"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "Kranialt om m. vocalis. Kontraktion --> justerar tensionen i plica vestibularis (eq, ca)",
+      "la": "M. ventricularis"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "Omsluts av plica vestibulare (eq, su, ca)",
+      "la": "Lig. vestibulare"
+    },
+    {
+      "group": "Musculi laryngis",
+      "subGroup": "",
+      "sv": "Omsluts av plica vocalis, fäster till proc. vocalis på arytenoidea",
+      "la": "Lig. vocale"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Struphuvudets hålrum",
+      "la": "Cavum laryngis"
+    },
+    {
+      "group": "Cavum laryngis",
+      "subGroup": "",
+      "sv": "Ingång till larynx, avgränsas av epiglottis, plica aryepiglottica och proc. corniculatus på arytenoidea",
+      "la": "Aditus laryngis"
+    },
+    {
+      "group": "Cavum laryngis",
+      "subGroup": "",
+      "sv": "Slemhinneveck från epiglottis till arytenoidea (ca, eq), från epiglottis till cricoidea (fe) och slemhinna kaudalt om slemhinnan vid proc. corniculatus (su, Ru)",
+      "la": "Plica aryepiglottica"
+    },
+    {
+      "group": "Cavum laryngis",
+      "subGroup": "",
+      "sv": "Utrymme kranialt om stämbanden",
+      "la": "Vestibulum laryngis"
+    },
+    {
+      "group": "Cavum laryngis",
+      "subGroup": "",
+      "sv": "”Falska stämband”, kranialt om plica vocalis (eq, Car)",
+      "la": "Plica vestibularis"
+    },
+    {
+      "group": "Cavum laryngis",
+      "subGroup": "",
+      "sv": "Stämband",
+      "la": "Plica vocalis"
+    },
+    {
+      "group": "Cavum laryngis",
+      "subGroup": "",
+      "sv": "”Morgagniska fickor”. Laterala fickor mellan plica vocalis och plica vestibularis (eq, ca), mellan plica vocalis två delar (su)",
+      "la": "Ventriculus laryngis"
+    },
+    { "group": "", "subGroup": "", "sv": "Luftstrupen", "la": "Trachea" },
+    {
+      "group": "Trachea",
+      "subGroup": "",
+      "sv": "Tracheas broskringar",
+      "la": "Cartilagines tracheales"
+    },
+    {
+      "group": "Trachea",
+      "subGroup": "",
+      "sv": "Tunn dorsal trachealmuskel, (glatt muskulatur), utanför brosket (Car) innanför öv. djurslag",
+      "la": "Musculus trachealis"
+    },
+    {
+      "group": "Trachea",
+      "subGroup": "",
+      "sv": "”Eparterialbronk”. Förgrening från trachea till lobus cran dx som avgår innan luftstrupens förgrening (Ru, su)",
+      "la": "Bronchus trachealis"
+    },
+    {
+      "group": "Trachea",
+      "subGroup": "",
+      "sv": "Luftstrupens förgrening",
+      "la": "Bifurcatio tracheae"
+    },
+    {
+      "group": "Trachea",
+      "subGroup": "",
+      "sv": "Vänster och höger huvudbronk",
+      "la": "Bronchus principalis sinister et dexter"
+    },
+    {
+      "group": "Trachea",
+      "subGroup": "",
+      "sv": "Luftrör (bronker), vardera försörjer en hel lunglob",
+      "la": "Bronchi lobares"
+    },
+    {
+      "group": "Trachea",
+      "subGroup": "",
+      "sv": "Små luftrör",
+      "la": "Bronchuli"
+    },
+    {
+      "group": "Trachea",
+      "subGroup": "",
+      "sv": "Lungblåsor",
+      "la": "Sacculi alveolares"
+    },
+    { "group": "", "subGroup": "", "sv": "Brösthålan", "la": "Cavum thoracis" },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Hålrum mellan lungsäckens inre och yttre blad",
+      "la": "Cavum pleurae"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Kranial blind ände av pleurahålan, kan sticka ut utanför första revbenet (sårbart för trauma)",
+      "la": "Cupula pleurae"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Hålrum mellan pleura costalis och pleura diaphragmatica",
+      "la": "Recessus costodiaphragmaticus"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Hålrum mellan mediastinum caudale och plica venae cavae, där lobus accessorius är belägen",
+      "la": "Recessus mediastini"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Lungsäck/brösthinnans yttre blad",
+      "la": "Pleura parietalis"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Pleura parietalis brukar regionvis benämnas efter den struktur som pleura täcker",
+      "la": "Pleura costalis"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Pleura parietalis brukar regionvis benämnas efter den struktur som pleura täcker",
+      "la": "Pleura diaphragmatica"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Pleura parietalis brukar regionvis benämnas efter den struktur som pleura täcker",
+      "la": "Pleura mediastinalis"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Pleura parietalis brukar regionvis benämnas efter den struktur som pleura täcker",
+      "la": "Pleura pericardiaca"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Lungsäck/brösthinnans inre blad mot lungvävnaden",
+      "la": "Pleura pulmonalis"
+    },
+    {
+      "group": "Cavum thoracis",
+      "subGroup": "",
+      "sv": "Pleuraveck",
+      "la": "Plica venae cavae"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Lungor",
+      "la": "Pulmones sin et dx"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Vänster och höger spetsflik",
+      "la": "Lobus cranialis sinister et dexter"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Den vänstra spetsfliken är uppdelad I en främre och bakre del hos alla i kursen berörda djurarter utom häst",
+      "la": "Lobus cranialis sin pars cranialis et caudalis (ej eq)"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Den högra spetsfliken är uppdelad i en främre och bakre del hos idisslare",
+      "la": "Lobus cranialis dx pars cranialis et caudalis (Ru)"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Vänster och höger diafragmaflik",
+      "la": "Lobus caudalis sin et dx"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Hjärtflik, finns ej hos häst",
+      "la": "Lobus medius"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Intermediärflik, belägen i recessus mediastini",
+      "la": "Lobus accessorius"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Område där bronker och lungkärl passerar in och ut i lungan",
+      "la": "Hilus pulmonis"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Incisurer mellan lobus cran. sin. pars cran. et caud. (Ru, su, Car) eller mellan lobus cran. sin. och lobus caud. sin (eq).",
+      "la": "Incisura cardiaca pulmonis sinistri"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Incisurer mellan lobus cran. dx. pars cran et caud. (Ru), mellan lobus cran. dx och lobus medius (Car, su). Mycket djupa incisurer hos hund",
+      "la": "Incisura cardiaca pulmonis dextri"
+    },
+    {
+      "group": "Pulmones",
+      "subGroup": "",
+      "sv": "Små anatomiska enheter (polyedrar) bestående av terminala bronkioler och lungblåsor. Separeras av fibrösa skiljeväggar som är olika kraftiga för olika djurarter – därav begreppen ”slät” eller lobulerad yta.",
+      "la": "Lobuli pulmonis"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "Diafragma",
+      "la": "Diaphragma"
+    },
+    {
+      "group": "Diaphragma",
+      "subGroup": "",
+      "sv": "Hålrum i diafragma som tillåter passage av aortas, v. azygos och ductus thoracicus",
+      "la": "Hiatus aorticus"
+    },
+    {
+      "group": "Diaphragma",
+      "subGroup": "",
+      "sv": "Hålrum i diafragma som tillåter passage av esophagus och truncus vagalis dorsalis et ventralis",
+      "la": "Hiatus esophageus"
+    },
+    {
+      "group": "Diaphragma",
+      "subGroup": "",
+      "sv": "Hålrum i diafragma som tillåter passage av v. cava caudalis",
+      "la": "Foramen venae cavae"
+    },
+    {
+      "group": "Diaphragma",
+      "subGroup": "",
+      "sv": "Diafragmans skänklar. Den högra mer framträdande och större, omger hiatus esophageus",
+      "la": "Crus dextrum et sinistrum"
+    }
+  ]
+}

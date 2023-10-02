@@ -1,26 +1,37 @@
-import angiologia from "./angiologia";
-import digestorius from "./digestorius";
-import endocrina from "./endocrina.json";
-import feminin from "./feminin.json";
-import masculina from "./masculina.json";
-import nervosum from "./nervosum.json";
-import respiratorius from "./respiratorius.json";
-import sensuum from "./sensuum";
-import skeleton from "./skeleton";
-/* import test from "./test.json";
- */ import urinaria from "./urinaria.json";
+import allman from "./circresp/allman";
+import circ from "./circresp/circ";
+import respiration from "./circresp/respiration";
+import angiologia from "./dog/angiologia";
+import digestorius from "./dog/digestorius";
+import endocrina from "./dog/endocrina";
+import feminin from "./dog/feminin";
+import masculina from "./dog/masculina";
+import nervosum from "./dog/nervosum";
+import respiratorius from "./dog/respiratorius";
+import sensuum from "./dog/sensuum";
+import skeleton from "./dog/skeleton";
+import urinaria from "./dog/urinaria";
 
-export const domains = [
-  respiratorius,
-  angiologia,
-  digestorius,
-  urinaria,
-  masculina,
-  feminin,
-  endocrina,
-  nervosum,
-  sensuum,
-  skeleton,
-  /*   test,
-   */
+export const sections = [
+  {
+    name: "Hundens PM",
+    id: "dog",
+    domains: [
+      respiratorius,
+      angiologia,
+      digestorius,
+      urinaria,
+      masculina,
+      feminin,
+      endocrina,
+      nervosum,
+      sensuum,
+      skeleton,
+    ],
+  },
+  {
+    name: "Circ/Resp",
+    id: "circresp",
+    domains: [allman, respiration, circ],
+  },
 ];

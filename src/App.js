@@ -1,39 +1,35 @@
-import { useState } from "react";
+import { Button } from "@mui/material";
+import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import "./App.css";
-import { Quiz } from "./components/Quiz";
+import { DomainSelect } from "./components/DomainSelect";
+import { QuizPage } from "./components/QuizPage";
 import { StartMenu } from "./components/StartMenu";
-import { domains } from "./words/words";
 
 function App() {
-  const [currentDomain, setCurrentDomain] = useState(null);
-  const [shuffle, setShuffle] = useState(false);
-  const [wordSet, setWordSet] = useState();
-
-  const onBack = () => {
-    setCurrentDomain(null);
-    setWordSet(null);
-  };
-
-  const selectedDomain =
-    currentDomain && domains.find(({ domain }) => domain === currentDomain);
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
 
   return (
     <div className="App">
-      {currentDomain === null ? (
-        <StartMenu
-          setShuffle={setShuffle}
-          shuffle={shuffle}
-          setCurrentDomain={setCurrentDomain}
-          setWordSet={setWordSet}
-        />
-      ) : (
-        <Quiz
-          shuffle={shuffle && !wordSet}
-          onBack={onBack}
-          domain={selectedDomain}
-          subSet={wordSet}
-        />
+      {pathname !== "/" && (
+        <Button
+          sx={{
+            position: "absolute",
+            top: "1rem",
+            left: "1rem",
+            color: "white",
+            alignSelf: "flex-start",
+          }}
+          onClick={() => navigate(-1)}
+        >
+          Tillbaka
+        </Button>
       )}
+      <Routes>
+        <Route path="/" exact element={<StartMenu />} />
+        <Route path="/:sectionId/" element={<DomainSelect />} />
+        <Route path="/:sectionId/:domainId" element={<QuizPage />} />
+      </Routes>
     </div>
   );
 }

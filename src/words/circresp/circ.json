@@ -1,0 +1,505 @@
+{
+  "domain": "Cirkulation",
+  "id": "cirkulation",
+  "words": [
+    { "group": "", "subGroup": "", "sv": "Hjärtat", "la": "Cor" },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Hjärtbasen",
+      "la": "Basis cordis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Hjärtspetsen",
+      "la": "Apex cordis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Tunt glatt vävnadsskikt som linjerar hjärtats hålrum, kontinuerligt med kärlens endotel",
+      "la": "Endocardium"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Hjärtmuskeln",
+      "la": "Myocardium"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Vänster och höger hjärtkammare",
+      "la": "Ventriculus sin et dx"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Dilatation av den vänstra kraniodorsala delen av ventriculus dx, något ventralt om där truncus pulmonalis börjar",
+      "la": "Conus arteriosus"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Muskelbalkar, upphöjningar, (”köttlister”) insida av kammarväggen",
+      "la": "Trabeculae carnae"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Vänster och höger förmak",
+      "la": "Atrium sin et dx"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Öppning för resp. blodkärl till atrium dx",
+      "la": "Ostium venae cavae cranialis et caudalis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Muskelås i väggen i atrium dx, skapar en liten avgränsning/kant mellan v. cavas inlopp och övriga atrium dx",
+      "la": "Crista terminalis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Ås mellan mynningarna av v. cava cran. et caud. i atrium dx. De båda hålvenerna åtskiljs av denna struktur",
+      "la": "Tuberculum intervenosum"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Fd formen ovale, inbuktning i septum interatriale av atrium dx vid v. cava caud. mynning",
+      "la": "Fossa ovalis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Vänster och höger hjärtöra",
+      "la": "Auricula sin et dx"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Små muskelåsar i förmaken, auricula",
+      "la": "Mm pectinati"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Vägg mellan förmaken",
+      "la": "Septum interatriale"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Vägg mellan kamrarna",
+      "la": "Septum interventriculare"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Liten membranös vägg mellan höger förmak och vänster kammare strax ventralt om valva trunci pulmonalis",
+      "la": "Septum atrioventriculare"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Öppning mellan förmak och kammare (hö och vä sida)",
+      "la": "Ostium atrioventriculare"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Öppning mellan vä kammare och aorta",
+      "la": "Ostium aortae"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Öppning mellan hö kammare och truncus pulmonalis",
+      "la": "Ostium trunci pulmonalis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Bindvävsringar som omger de fyra ostierna (ostium atrioventriculare, ostium aortae och ostium trunci pulmonalis)",
+      "la": "Anulus fibrosus, anuli fibrosi (plu)"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Bindvävsplattor eller i vissa fall ben (vanl hos bo) kring aortas anulus fibrosus",
+      "la": "Cartilago cordis och ossa cordis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Segelklaffar mellan hö förmak och kammare, 3st (trikuspidalisklaffar)",
+      "la": "Valva atrioventricularis dextra = valva tricuspidalis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Segelklaffar mellan vä förmak och kammare, 2st (mitralisklaffar)",
+      "la": "Valva atrioventricularis sinistra = valva bicuspidalis = valva mitralis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Sentrådar som fäster till segelklaffarna och papillarmusklerna",
+      "la": "Chordae tendineae"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Koniskt formade muskelpapiller där sentrådarna fäster",
+      "la": "Musculus papillaris"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Aortaklaffar, fickklaffar (semilunarklaffar)",
+      "la": "Valva aortae"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Lungartärens fickklaffar (semilunarklaffar)",
+      "la": "Valva trunci pulmonalis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Sträng, (del av retledningssystemet) från septum interventriculare och kammarväggen, stor höger sida",
+      "la": "Trabecula septomarginalis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "AV-knutan (del av retledningssystemet)",
+      "la": "Nodus atrioventricularis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Sinusknutan (del av retledningssystemet)",
+      "la": "Nodus sinuatrialis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Exteriör fåra vänster sida mellan vä och hö kammare, där de stora kranskärlen är lokaliserade",
+      "la": "Sulcus interventricularis paraconalis"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Exteriör fåra höger sida mellan vä och hö kammare, där de stora kranskärlen är lokaliserade",
+      "la": "Sulcus interventricularis subsinuosus"
+    },
+    {
+      "group": "Cor",
+      "subGroup": "",
+      "sv": "Exteriör fåra mellan förmaken och kamrarna. där de stora kranskärlen är lokaliserade",
+      "la": "Sulcus coronarius"
+    },
+    { "group": "", "subGroup": "", "sv": "Hjärtsäck", "la": "Pericardium" },
+    {
+      "group": "Pericardium",
+      "subGroup": "",
+      "sv": "Hjärtsäckens bindvävsdel",
+      "la": "Pericardium fibrosum"
+    },
+    {
+      "group": "Pericardium",
+      "subGroup": "",
+      "sv": "Hjärtsäckens serösa skikt. Det yttre (parietala) bladet bekläder insidan av det fibrösa lagret medan det inre (viscerala) sitter dikt an myocardiet och kallas även epicardium",
+      "la": "Pericardium serosum lamina parietalis et visceralis"
+    },
+    {
+      "group": "Pericardium",
+      "subGroup": "",
+      "sv": "Hjärtsäckens hålrum, mellan det det serösa skiktents parietala och viscerala blad",
+      "la": "Cavum pericardii"
+    },
+    { "group": "", "subGroup": "", "sv": "Kärl", "la": "Vas" },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Vänster och höger kransartär, förgrenar sig och löper i hjärtats fåror. Löper tillsammans med kransvener",
+      "la": "Aa. coronaria sinistra et dextra"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Hjärtats kransvener",
+      "la": "Vv. cordis"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Fickbildning av höger förmak längs sulcus coronarius. Här mynnar kransvener och V. azygos sin.",
+      "la": "Sinus coronarius"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Stora kroppspulsådern",
+      "la": "Aorta"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Stora kroppspulsåderns bröstdel",
+      "la": "Aorta thoracica"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Aortabågen",
+      "la": "Arcus aortae"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Gemensam artärförgrening för frambens- och huvudartärer från aortabågen (enbart denna avgår från aortabågen hos Ru och eq, den första av två för su och Car)",
+      "la": "Truncus brachiocephalicus"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Ett kort kärl med gemensam a. carotis hos eq och Ru",
+      "la": "Truncus bicaroticus"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Vä nyckelbensartär. Direkt förgrening från aortabågen hos su och Car, avgrening från Tr. brachiocephalicus hos eq och Ru",
+      "la": "A. subclavia sin"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Hö nyckelbensartär, förgrenas från Tr. brachiocephalicus",
+      "la": "A. subclavia dx"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Halspulsåder",
+      "la": "Aa. carotis communis sin et dx"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "??",
+      "la": "A. carotis interna sin et dx"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "??",
+      "la": "A. carotis externa sin et dx"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Främre och bakre hålvenen",
+      "la": "V. cava cranialis et caudalis"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Den opariga venen. Hö finns hos Car, eq, Ru och evt su. Vä finns hos su och Ru",
+      "la": "V. azygos sin./dx"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Frambens- och huvudven. Parig gren av v. cava cran. hos Car och su. Förgrenas till v. subclavia och v. jugularis externa.",
+      "la": "V. brachiocephalica"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Oparig ven kranialt om v. subclavias förgrening från v. cava cran. hos Ru och eq.",
+      "la": "Tr. bijugularis"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Halsvenerna (interna et externa), pariga. Externa är en gren från v. brachiocephalicus (Car, su) eller tr. bijugularis (bo, eq) och den man tar blodprov från hos framförallt Ru och eq.",
+      "la": "Vv. jugulares"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Dorsal gren av v. jugularis externa vid kaudala käkvinkeln",
+      "la": "V. maxillaris"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Ventral gren av v. jugularis externa vid kaudala käkvinkeln",
+      "la": "V. linguofacialis"
+    },
+    { "group": "Vas", "subGroup": "", "sv": "??", "la": "A. et v. facialis" },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Nyckelbensven. Gren av v. brachiocephalicus (Car, su), gren av v. cava cran (Ru, eq).",
+      "la": "V. subclavia"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Lungpulsåder",
+      "la": "Truncus pulmonalis"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Tr. pulmonalis förgrenar sig till en hö respektive vä lungartär",
+      "la": "A. pulmonalis dx et sin"
+    },
+    {
+      "group": "Vas",
+      "subGroup": "",
+      "sv": "Lungvener",
+      "la": "Vv. pulmonales"
+    },
+    { "group": "", "subGroup": "", "sv": "Ligament", "la": "Ligamentum" },
+    {
+      "group": "Ligamentum",
+      "subGroup": "",
+      "sv": "Rest från fosterutvecklingen, fd ductus arteriosus, mellan truncus pulmonalis och aorta descendens",
+      "la": "Lig. arteriosum"
+    },
+    {
+      "group": "Ligamentum",
+      "subGroup": "",
+      "sv": "Hjärtats apex fixeras mot sternum, bindväv från pericardium fibrosum och sternum (två band hos idisslare)",
+      "la": "Ligg sternopericardiaca (Ru)"
+    },
+    {
+      "group": "Ligamentum",
+      "subGroup": "",
+      "sv": "Hjärtats apex fixeras mot sternum, bindväv från pericardium fibrosum och sternum (ett band hos häst)",
+      "la": "Lig sternopericardiacum (eq)"
+    },
+    {
+      "group": "Ligamentum",
+      "subGroup": "",
+      "sv": "Hjärtats apex fixeras mot diafragma, bindväv från pericardium fibrosum och diaphragma (hund, gris)",
+      "la": "Lig phrenicopericardiacum (ca, su)"
+    },
+    {
+      "group": "",
+      "subGroup": "",
+      "sv": "??",
+      "la": "Lymphonodus et vas lymphaticum"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Lymfknutor vid lungans bifurcatio trachea, hilus pulmonis och br. trachealis (su, Ru)",
+      "la": "Lnn. tracheobroncheales"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Lymfknutor mot sternum",
+      "la": "Lnn sternales"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Lymfknutor i mediastinum",
+      "la": "Lnn mediastinales"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Intercostallymfknutor",
+      "la": "Lnn intercostales"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Lymfknutor längs aortas dorsalsida",
+      "la": "Lnn thoracici aortici"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Öronlymfknuta",
+      "la": "Lnn parotidei"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Svalglymfknutorna",
+      "la": "Lnn retropharyngei mediales et laterales"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Axillarlymfknutorna",
+      "la": "Lnn axillares"
+    },
+    {
+      "group": "Lymphonodus",
+      "subGroup": "",
+      "sv": "Stora bröstlymfgången från cisterna chyli till v. cava cran.",
+      "la": "Ductus thoracicus"
+    },
+    { "group": "", "subGroup": "", "sv": "Brässen", "la": "Thymus" },
+    {
+      "group": "Thymus",
+      "subGroup": "",
+      "sv": "Thymus del i halsen, finns en höger och vänster del.",
+      "la": "Lobus cervicalis (Ru, su – evt eq)"
+    },
+    {
+      "group": "Thymus",
+      "subGroup": "",
+      "sv": "Thymus del i kraniala mediastinum",
+      "la": "Lobus thoracalis"
+    },
+    { "group": "", "subGroup": "", "sv": "Nerver", "la": "Nervus" },
+    {
+      "group": "Nervus",
+      "subGroup": "",
+      "sv": "”Hicknerven”",
+      "la": "N. phrenicus"
+    },
+    {
+      "group": "Nervus",
+      "subGroup": "",
+      "sv": "X:e kranialnerven, ”den kringirrande nerven”,",
+      "la": "N. vagus"
+    },
+    {
+      "group": "Nervus",
+      "subGroup": "",
+      "sv": "N. vagus bildar tillsammans med halssympaticus, truncus vagosympaticus, dorsalt om a. carotis communis",
+      "la": "Truncus vagosympaticus"
+    },
+    {
+      "group": "Nervus",
+      "subGroup": "",
+      "sv": "I höjd med tracheas bifurkation delar sig resp. sidas n. vagus i en dorsal och ventral gren, går längs med esophagus",
+      "la": "Truncus vagalis dorsalis et ventralis"
+    },
+    {
+      "group": "Nervus",
+      "subGroup": "",
+      "sv": "Den vänstra passerar runt aortabågen, den högra passerar runt a subclavia dx, båda går längs med trachea till larynx. Innerverar samtliga av larynx muskler utom m. cricothyroideus (innerveras av n. laryngeus cranialis)",
+      "la": "N. laryngeus recurrens sin et dx"
+    }
+  ]
+}
