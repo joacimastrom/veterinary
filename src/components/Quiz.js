@@ -8,17 +8,13 @@ import {
   CardContent,
   Chip,
   Collapse,
-  FormControlLabel,
-  FormGroup,
   Grow,
   IconButton,
   Input,
-  Slider,
-  Switch,
   TextField,
   Typography,
 } from "@mui/material";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useContext, useEffect, useRef, useState } from "react";
 import {
   checkEqual,
   checkIfWordIsSaved,
@@ -32,6 +28,7 @@ import {
   saveWordToLocalStorage,
   shuffleArray,
 } from "./../utils";
+import { SettingsContext } from "./SettingsContext";
 
 export const translationOptions = [
   {
@@ -49,8 +46,7 @@ export const translationOptions = [
 ];
 
 export const Quiz = ({ onBack, domain, shuffle, subSet }) => {
-  const [showGroup, setShowGroup] = useState(true);
-  const [showSubGroup, setShowSubGrup] = useState(true);
+  const { showGroup, showSubGroup, modeSlider } = useContext(SettingsContext);
   const [wordSet /* , setWordSet */] = useState(
     shuffle ? shuffleArray(domain.words) : domain.words
   );
@@ -60,8 +56,7 @@ export const Quiz = ({ onBack, domain, shuffle, subSet }) => {
     subSet ? getAlternatives(subSet[0], wordSet) : getAlternatives(0, wordSet)
   );
   const [textValue, setTextValue] = useState("");
-  const [modeSlider, setModeSlider] = useState(0);
-  const [mode, setMode] = useState({ from: "sv", to: "la" });
+  const [mode, setMode] = useState(getMode(modeSlider));
   const [showSettings, setShowSettings] = useState(false);
   const [hintLength, setHintLength] = useState(1);
   const [jumpTo, setJumpTo] = useState("");
@@ -311,44 +306,9 @@ export const Quiz = ({ onBack, domain, shuffle, subSet }) => {
             onClick={() => setShowSettings((curr) => !curr)}
             color="text.secondary"
           >
-            Inställningar
+            Hoppa till ord
           </Typography>
           <Collapse in={showSettings}>
-            <Typography mt={1} mb={-1}>
-              Översätt från
-            </Typography>
-            <Slider
-              value={modeSlider}
-              onChange={(e) => setModeSlider(e.target.value)}
-              sx={{ width: 200, marginBottom: "1.5rem" }}
-              defaultValue={0}
-              step={50}
-              marks={translationOptions}
-              label="Språk"
-            />
-            <FormGroup>
-              <FormControlLabel
-                control={
-                  <Switch
-                    checked={showGroup}
-                    onChange={() => setShowGroup((curr) => !curr)}
-                  />
-                }
-                label="Visa grupp"
-              />
-              <FormControlLabel
-                control={
-                  <Switch
-                    checked={showSubGroup}
-                    onChange={() => setShowSubGrup((curr) => !curr)}
-                  />
-                }
-                label="Visa undergrupp"
-              />
-            </FormGroup>
-            <Typography mt={1} mb={-1}>
-              Hoppa till ord
-            </Typography>
             <Box>
               <Input
                 type="number"
